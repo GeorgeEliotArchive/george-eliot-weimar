@@ -8,7 +8,7 @@ var EliotWeimarLocations = {
        "coordinates":  [ 11.3235, 50.9795 ]
     },
     "properties": {
-    "Date":"08/02/1853",
+    "Date":"08/02/1854",
     "Location":"Weimar Station",
     "Info": "It was between three and four o’clock on a fine morning in August, that after a ten hours’ journey from Frankfort, I awoke at the Weimar station. No tipsiness can be more dead to all appeals than that which comes from fitful draughts of sleep on a railway journey by night. To the disgust of your wakeful companions, you are totally insensible to the existence of your umbrella, and to the fact that your carpet-bag is stowed under your seat, or that you have borrowed books and tucked them behind the cushion. »What’s the odds, so long as one can sleep?« is your philosophic formula; and it is not until you have begun to shiver on the platform in the early morning air that you become alive to property and its duties, – that is, to the necessity of keeping a fast grip upon it. Such was my condition when I reached the station at Weimar.<br><br>– from: George Eliot, Three Months in Weimar",
     "MediaOne": "https://3.bp.blogspot.com/-BwQ-zUd9hfA/XJde18khO5I/AAAAAAAAA40/ifk6y2keybk0jekEDFIK41C3b30e-trCwCLcBGAs/s1600/Bahnabteil.jpg",
@@ -288,7 +288,7 @@ var EliotWeimarLocations = {
        "coordinates":  [ 11.3235, 50.9795 ]
     },
     "properties": {
-    "Date":"08/02/1853",
+    "Date":"08/02/1854",
     "Location":"Weimar Station",
     "Info": "It was between three and four o’clock on a fine morning in August, that after a ten hours’ journey from Frankfort, I awoke at the Weimar station. No tipsiness can be more dead to all appeals than that which comes from fitful draughts of sleep on a railway journey by night. To the disgust of your wakeful companions, you are totally insensible to the existence of your umbrella, and to the fact that your carpet-bag is stowed under your seat, or that you have borrowed books and tucked them behind the cushion. What’s the odds, so long as one can sleep? is your philosophic formula; and it is not until you have begun to shiver on the platform in the early morning air that you become alive to property and its duties, – that is, to the necessity of keeping a fast grip upon it. Such was my condition when I reached the station at Weimar. – from: George Eliot, Three Months in Weimar",
     "MediaOne": "<img src=\"https://3.bp.blogspot.com/-BwQ-zUd9hfA/XJde18khO5I/AAAAAAAAA40/ifk6y2keybk0jekEDFIK41C3b30e-trCwCLcBGAs/s1600/Bahnabteil.jpg\" alt=\"Train Compartment\" style=\"max-width:500px; width:100%\">",
