@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eliot in Weimar</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" crossorigin="" />
+  <link rel="icon" href="/files/fullsize/archive-favicon.jpeg" type="image/x-icon"/>
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    },
+    #map {
+      min-height: 90%;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet" >
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/EliotWeimarLocations.js"></script>
+  <script src="js/EliotWeimarTrip.js"></script>
+</head>
+
+<body>
+  <div id="map" style="font-size: 16px; font-family:'Crimson Text'; height: 100%">
+    <div id="info" class="leaflet-bottom leaflet-left" style="position:sticky;padding:5px 5px 15px 5px;width:27.5%;background-color:white;border-radius:10px;margin:100px 30px 30px 10px;text-align:center;border-style:solid;border-color:#7F7F7F">
+      <p><h3>George Eliot's Trip to Weimar, 1853</h3>Click on the circles to see information on each place Eliot visited; click on the itinerary line to get more information on Eliot's Weimar trip.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var map = L.map('map', {
+      center: [50.9725, 11.3230], 
+      zoom: 14
+    });
+
+    var canvas = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+      minZoom: 5
+    });
+
+    var imagery = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      minZoom: 5,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var onEachFeatureWeimar = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        var popup =
+          '<h4><p>George Eliot&#39;s Weimar journey with her friends Charles and Cara Bray was her first visit to the Continent. They visited well-known sites in France, Italy, and Switzerland, and when the Brays returned home in late July, Eliot remains in Geneva for several more months, returning to England in March of 1850. Eliots early journals were destroyed by John Cross, who discusses the trip briefly and quotes from the Geneva letters extensively in Chapter 4 of the <em>Life of George Eliot</em> at <a href="https://georgeeliotarchive.org/files/original/3b28e63752fc4810a36918d080b580f5.pdf" target="_blank"> Vol.1 of <em>Life</em> the Cabinet Edition</a>, pp. 168-201.&nbsp;</p><p><i>Click on the individual Locations on this itinerary for more information.</it></p></h4>';
+        feature.layer = layer;
+        layer.bindPopup(popup, {
+          maxWidth: "300"
+        });
+      }
+    };
+
+    // all Locations visited in one layer:
+    var onEachFeatureLocationsWeimar = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        //   var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Years']+'<br>'+prop['Info'];
+        feature.layer = layer;
+        layer.on('click', function(e) {
+          document.getElementById("info").innerHTML = '<h3>' + prop['Location'] +'</h3><strong>Arrival Date: </strong>' + prop['Date'] + '<br>' + prop['Info'] + '<br>' + prop['MediaOne'] + '<br>' + prop['MediaTwo'] + '<br>' + prop['MediaThree'] + '<br>' + prop['MediaFour'] + '<br>' + prop['MediaFive'] + '<br>' + prop['MediaSix'] + '<br>' + prop['MediaSeven'] + '<br>' + prop['MediaEight'];
+        })
+      }
+    };
+
+    var tripWeimarstyle = {
+      "color": '#984ea3',
+      "weight": 4,
+      "opacity": 0.8
+    };
+
+    var EliotCircleMarkers = {
+      radius: 10,
+      fillColor: "#033742",
+      color: "#033742",
+      weight: 1,
+      opacity: 0.8,
+      fillOpacity: 0.3,
+    };
+
+    var EliotWeimarTrip = L.geoJson(EliotWeimarTrip, {
+      onEachFeature: onEachFeatureWeimar,
+      style: tripWeimarstyle
+    }).addTo(map);
+
+    var EliotWeimarLocations = L.geoJson(EliotWeimarLocations, {
+      onEachFeature: onEachFeatureLocationsWeimar,
+      pointToLayer: function(feature, latlng) {
+        return L.circleMarker(latlng, EliotCircleMarkers);
+      }
+    }).addTo(map);
+
+    var basemaps = {
+      "Colorful": imagery,
+      "Monochrome": canvas
+    };
+
+    var overlaymaps = {
+      "<span style='color:red'>Itinerary 1853</span>": EliotWeimarTrip,
+      "All Locations Visited": EliotWeimarLocations
+    };
+
+    L.control.layers(basemaps, overlaymaps, {
+      collapsed: false
+    }).addTo(map);
+  </script>
+
+</body>
+
+</html>
