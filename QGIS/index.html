@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-measure.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/L.Control.Layers.Tree.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-measure.js"></script>
+        <script src="data/Paths_1.js"></script>
+        <script src="data/August1854_2.js"></script>
+        <script src="data/September1854_3.js"></script>
+        <script src="data/Paths_4.js"></script>
+        <script src="data/October1854_5.js"></script>
+        <script src="data/Paths_6.js"></script>
+        <script src="data/November1854_7.js"></script>
+        <script src="data/Paths_8.js"></script>
+        <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
+              highlightLayer.setStyle({
+                color: '#ffff00',
+              });
+            } else {
+              highlightLayer.setStyle({
+                fillColor: '#ffff00',
+                fillOpacity: 1
+              });
+            }
+        }
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[50.5999593429929,10.807516470828453],[51.201691702246585,11.740764683159489]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        function removeEmptyRowsFromPopupContent(content, feature) {
+         var tempDiv = document.createElement('div');
+         tempDiv.innerHTML = content;
+         var rows = tempDiv.querySelectorAll('tr');
+         for (var i = 0; i < rows.length; i++) {
+             var td = rows[i].querySelector('td.visible-with-data');
+             var key = td ? td.id : '';
+             if (td && td.classList.contains('visible-with-data') && feature.properties[key] == null) {
+                 rows[i].parentNode.removeChild(rows[i]);
+             }
+         }
+         return tempDiv.innerHTML;
+        }
+        document.querySelector(".leaflet-popup-pane").addEventListener("load", function(event) {
+          var tagName = event.target.tagName,
+            popup = map._popup;
+          // Also check if flag is already set.
+          if (tagName === "IMG" && popup && !popup._updated) {
+            popup._updated = true; // Set flag to prevent looping.
+            popup.update();
+          }
+        }, true);
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'feet',
+            secondaryLengthUnit: 'miles',
+            primaryAreaUnit: 'sqfeet',
+            secondaryAreaUnit: 'sqmiles'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+        .className += ' fas fa-ruler';
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OSMStandard_0');
+        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OSMStandard_0',
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        function pop_Paths_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? autolinker.link(feature.properties['begin'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? autolinker.link(feature.properties['end'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_Paths_1_0() {
+            return {
+                pane: 'pane_Paths_1',
+                opacity: 1,
+                color: 'rgba(18,142,164,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Paths_1');
+        map.getPane('pane_Paths_1').style.zIndex = 401;
+        map.getPane('pane_Paths_1').style['mix-blend-mode'] = 'normal';
+        var layer_Paths_1 = new L.geoJson(json_Paths_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Paths_1',
+            layerName: 'layer_Paths_1',
+            pane: 'pane_Paths_1',
+            onEachFeature: pop_Paths_1,
+            style: style_Paths_1_0,
+        });
+        bounds_group.addLayer(layer_Paths_1);
+        map.addLayer(layer_Paths_1);
+        function pop_August1854_2(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_August1854_2_0() {
+            return {
+                pane: 'pane_August1854_2',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(17,202,243,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_August1854_2');
+        map.getPane('pane_August1854_2').style.zIndex = 402;
+        map.getPane('pane_August1854_2').style['mix-blend-mode'] = 'normal';
+        var layer_August1854_2 = new L.geoJson(json_August1854_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_August1854_2',
+            layerName: 'layer_August1854_2',
+            pane: 'pane_August1854_2',
+            onEachFeature: pop_August1854_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_August1854_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_August1854_2);
+        map.addLayer(layer_August1854_2);
+        function pop_September1854_3(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_September1854_3_0() {
+            return {
+                pane: 'pane_September1854_3',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(190,181,18,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_September1854_3');
+        map.getPane('pane_September1854_3').style.zIndex = 403;
+        map.getPane('pane_September1854_3').style['mix-blend-mode'] = 'normal';
+        var layer_September1854_3 = new L.geoJson(json_September1854_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_September1854_3',
+            layerName: 'layer_September1854_3',
+            pane: 'pane_September1854_3',
+            onEachFeature: pop_September1854_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_September1854_3_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_September1854_3);
+        map.addLayer(layer_September1854_3);
+        function pop_Paths_4(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? autolinker.link(feature.properties['begin'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? autolinker.link(feature.properties['end'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_Paths_4_0() {
+            return {
+                pane: 'pane_Paths_4',
+                opacity: 1,
+                color: 'rgba(225,187,64,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Paths_4');
+        map.getPane('pane_Paths_4').style.zIndex = 404;
+        map.getPane('pane_Paths_4').style['mix-blend-mode'] = 'normal';
+        var layer_Paths_4 = new L.geoJson(json_Paths_4, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Paths_4',
+            layerName: 'layer_Paths_4',
+            pane: 'pane_Paths_4',
+            onEachFeature: pop_Paths_4,
+            style: style_Paths_4_0,
+        });
+        bounds_group.addLayer(layer_Paths_4);
+        map.addLayer(layer_Paths_4);
+        function pop_October1854_5(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_October1854_5_0() {
+            return {
+                pane: 'pane_October1854_5',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(247,22,255,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_October1854_5');
+        map.getPane('pane_October1854_5').style.zIndex = 405;
+        map.getPane('pane_October1854_5').style['mix-blend-mode'] = 'normal';
+        var layer_October1854_5 = new L.geoJson(json_October1854_5, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_October1854_5',
+            layerName: 'layer_October1854_5',
+            pane: 'pane_October1854_5',
+            onEachFeature: pop_October1854_5,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_October1854_5_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_October1854_5);
+        map.addLayer(layer_October1854_5);
+        function pop_Paths_6(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? autolinker.link(feature.properties['begin'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? autolinker.link(feature.properties['end'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_Paths_6_0() {
+            return {
+                pane: 'pane_Paths_6',
+                opacity: 1,
+                color: 'rgba(243,23,225,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Paths_6');
+        map.getPane('pane_Paths_6').style.zIndex = 406;
+        map.getPane('pane_Paths_6').style['mix-blend-mode'] = 'normal';
+        var layer_Paths_6 = new L.geoJson(json_Paths_6, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Paths_6',
+            layerName: 'layer_Paths_6',
+            pane: 'pane_Paths_6',
+            onEachFeature: pop_Paths_6,
+            style: style_Paths_6_0,
+        });
+        bounds_group.addLayer(layer_Paths_6);
+        map.addLayer(layer_Paths_6);
+        function pop_November1854_7(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_November1854_7_0() {
+            return {
+                pane: 'pane_November1854_7',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(222,125,21,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_November1854_7');
+        map.getPane('pane_November1854_7').style.zIndex = 407;
+        map.getPane('pane_November1854_7').style['mix-blend-mode'] = 'normal';
+        var layer_November1854_7 = new L.geoJson(json_November1854_7, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_November1854_7',
+            layerName: 'layer_November1854_7',
+            pane: 'pane_November1854_7',
+            onEachFeature: pop_November1854_7,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_November1854_7_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_November1854_7);
+        map.addLayer(layer_November1854_7);
+        function pop_Paths_8(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['begin'] !== null ? autolinker.link(feature.properties['begin'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['end'] !== null ? autolinker.link(feature.properties['end'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+            var popup = layer.getPopup();
+            var content = popup.getContent();
+            var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
+            popup.setContent(updatedContent);
+        }
+
+        function style_Paths_8_0() {
+            return {
+                pane: 'pane_Paths_8',
+                opacity: 1,
+                color: 'rgba(190,97,10,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 2.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Paths_8');
+        map.getPane('pane_Paths_8').style.zIndex = 408;
+        map.getPane('pane_Paths_8').style['mix-blend-mode'] = 'normal';
+        var layer_Paths_8 = new L.geoJson(json_Paths_8, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Paths_8',
+            layerName: 'layer_Paths_8',
+            pane: 'pane_Paths_8',
+            onEachFeature: pop_Paths_8,
+            style: style_Paths_8_0,
+        });
+        bounds_group.addLayer(layer_Paths_8);
+        map.addLayer(layer_Paths_8);
+        var baseMaps = {};
+        var overlaysTree = [
+            {label: '<img src="legend/Paths_8.png" /> Paths', layer: layer_Paths_8},
+            {label: '<img src="legend/November1854_7.png" /> November 1854', layer: layer_November1854_7},
+            {label: '<img src="legend/Paths_6.png" /> Paths', layer: layer_Paths_6},
+            {label: '<img src="legend/October1854_5.png" /> October 1854', layer: layer_October1854_5},
+            {label: '<img src="legend/Paths_4.png" /> Paths', layer: layer_Paths_4},
+            {label: '<img src="legend/September1854_3.png" /> September 1854', layer: layer_September1854_3},
+            {label: '<img src="legend/August1854_2.png" /> August 1854', layer: layer_August1854_2},
+            {label: '<img src="legend/Paths_1.png" /> Paths', layer: layer_Paths_1},
+            {label: "OSM Standard", layer: layer_OSMStandard_0},]
+        var lay = L.control.layers.tree(null, overlaysTree,{
+            //namedToggle: true,
+            //selectorBack: false,
+            //closedSymbol: '&#8862; &#x1f5c0;',
+            //openedSymbol: '&#8863; &#x1f5c1;',
+            //collapseAll: 'Collapse all',
+            //expandAll: 'Expand all',
+            collapsed: true,
+        });
+        lay.addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
