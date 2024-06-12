@@ -47,129 +47,73 @@ def fetch_omeka_data(base_url, collection_id):
 def create_august_features(data):
     features = []
     for item in data:
-        new_feature = {
-            "type": "Feature",
-            "properties": {
-                "Date": item.get('Date', ''),
-                "Location": item.get('Location', ''),
-                "Description": item.get('Description', ''),
-                "Latitude": item.get('Latitude', 0),
-                "Longitude": item.get('Longitude', 0)
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [item.get('Longitude', 0), item.get('Latitude', 0)]
-            }
-        }
-        features.append(new_feature)
+        if item.get('Coverage'):
+            coordinates = re.findall(r'\d+\.\d+', item['Coverage'])
+            print("COORD")
+            print(coordinates)
+            if len(coordinates) == 2:
+                new_feature = {
+                    "type": "Feature",
+                    "properties": {
+                        "Date": item.get('Date', ''),
+                        "Location": item.get('Subject', ''),
+                        "Description": item.get('Description', ''),
+                        "Latitude": float(coordinates[1]),
+                        "Longitude": float(coordinates[0])
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [float(coordinates[1]), float(coordinates[0])]
+                    }
+                }
+                print("NEW FEATURE")
+                print(new_feature)
+                features.append(new_feature)
     return features
 
-# Function to create new JSON features for Paths_1.js
+# Function to create a single LineString feature for Paths_1.js
 def create_paths_features(data):
-    features = []
+    coordinates = []
     for item in data:
+        if item.get('Coverage'):
+            coords = re.findall(r'\d+\.\d+', item['Coverage'])
+            if len(coords) == 2:
+                coordinates.append([float(coords[1]), float(coords[0])])
+    
+    if coordinates:
         new_feature = {
             "type": "Feature",
             "properties": {
-                "begin": item.get('begin', ''),
-                "end": item.get('end', '')
+                "begin": "2",  # Start point index
+                "end": "3"     # End point index
             },
             "geometry": {
                 "type": "LineString",
-                "coordinates": []
+                "coordinates": coordinates
             }
         }
-        features.append(new_feature)
-    return features
-
-# Function to append new JSON features to JS file
-def append_features_to_js(file_path, new_features):
-    variable_name = 'json_August1854_7' if 'August1854_2' in file_path else 'json_Paths_1'
-
-    with open(file_path, 'r') as file:
-        content = file.read()
-    
-    # Find the position of the "features" array and insert new features before the closing bracket
-    match = re.search(r'(var\s+' + variable_name + r'\s*=\s*\{.*"features":\s*)(\[.*\])(\s*\};)', content, re.DOTALL)
-    if match:
-        before_features = match.group(1)
-        features_content = match.group(2)
-        after_features = match.group(3)
-
-        # Log features content for debugging
-        print("Features content before updating:")
-        print(features_content)
-
-        try:
-            # Convert the current features to JSON
-            current_features = json.loads(features_content)
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e}")
-            return
-
-        # Create a dictionary of new features for quick lookup by title
-        new_features_dict = {f['properties']['Date']: f for f in new_features}
-
-        # Update existing features or add new ones, and mark features to keep
-        updated_features = []
-        for existing_feature in current_features:
-            date = existing_feature['properties'].get('Date')
-            if date in new_features_dict:
-                existing_feature['properties'].update(new_features_dict[date]['properties'])
-                existing_feature['geometry'] = new_features_dict[date]['geometry']
-                updated_features.append(existing_feature)
-                del new_features_dict[date]  # Remove from new features dict as it's already added
-
-        # Add remaining new features that were not in the existing features
-        updated_features.extend(new_features_dict.values())
-        
-        # Convert back to JSON string
-        updated_features_content = json.dumps(updated_features, indent=2)
-        
-        # Write the updated content back to the file
-        with open(file_path, 'w') as file:
-            file.write(before_features + updated_features_content + after_features)
+        return [new_feature]
     else:
-        # Handle the Paths_1.js case where the variable name is json_Paths_4
-        match_paths = re.search(r'(var\s+json_Paths_4\s*=\s*\{.*"features":\s*)(\[.*\])(\s*\};)', content, re.DOTALL)
-        if match_paths:
-            before_features = match_paths.group(1)
-            features_content = match_paths.group(2)
-            after_features = match_paths.group(3)
-            
-            # Log features content for debugging
-            print("Features content before updating:")
-            print(features_content)
+        return []
 
-            try:
-                # Convert the current features to JSON
-                current_features = json.loads(features_content)
-            except json.JSONDecodeError as e:
-                print(f"Error decoding JSON: {e}")
-                return
-
-            # Create a dictionary of new features for quick lookup by begin
-            new_features_dict = {f['properties']['begin']: f for f in new_features}
-
-            # Update existing features or add new ones, and mark features to keep
-            updated_features = []
-            for existing_feature in current_features:
-                begin = existing_feature['properties'].get('begin')
-                if begin in new_features_dict:
-                    existing_feature['properties'].update(new_features_dict[begin]['properties'])
-                    existing_feature['geometry'] = new_features_dict[begin]['geometry']
-                    updated_features.append(existing_feature)
-                    del new_features_dict[begin]  # Remove from new features dict as it's already added
-
-            # Add remaining new features that were not in the existing features
-            updated_features.extend(new_features_dict.values())
-            
-            # Convert back to JSON string
-            updated_features_content = json.dumps(updated_features, indent=2)
-            
-            # Write the updated content back to the file
-            with open(file_path, 'w') as file:
-                file.write(before_features + updated_features_content + after_features)
+# Function to write new JSON features to JS file
+def write_features_to_js(file_path, new_features, variable_name):
+    content = {
+        "type": "FeatureCollection",
+        "name": variable_name,
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        },
+        "features": new_features
+    }
+    
+    with open(file_path, 'w') as file:
+        file.write(f'var {variable_name} = ')
+        json.dump(content, file, indent=4)
+        file.write(';')
 
 # Main function to run the update
 def main():
@@ -177,12 +121,14 @@ def main():
     
     if omeka_data:  # Check if data was fetched successfully
         august_features = create_august_features(omeka_data)
-        append_features_to_js(AUGUST_FILE_PATH, august_features)
+        write_features_to_js(AUGUST_FILE_PATH, august_features, 'json_August1854_2')
         
         paths_features = create_paths_features(omeka_data)
-        append_features_to_js(PATHS_FILE_PATH, paths_features)
+        write_features_to_js(PATHS_FILE_PATH, paths_features, 'json_Paths_1')
     else:
         print("No data fetched, skipping feature creation and file update.")
 
 if __name__ == "__main__":
     main()
+
+
