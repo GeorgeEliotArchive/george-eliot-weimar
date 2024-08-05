@@ -18,11 +18,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Change to script directory
-      run: cd QGIS/data
-
     - name: Run updateCount.py
-      run: python3 updateCount.py
+      run: python3 QGIS/data/updateCount.py
 
     - name: Commit changes
       run: |
