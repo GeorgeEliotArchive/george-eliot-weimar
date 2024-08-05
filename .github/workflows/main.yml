@@ -19,15 +19,15 @@ jobs:
         python-version: '3.x'
 
     - name: Change to script directory
-      run: cd ../QGIS/data
+      run: cd QGIS/data
 
     - name: Run updateCount.py
-      run: python updateCount.py
+      run: python3 updateCount.py
 
     - name: Commit changes
       run: |
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
         git add src/scripts/updateCount.txt
-        git commit -m "Update count"
+        git commit -m "Update Count"
         git push
