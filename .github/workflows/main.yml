@@ -25,6 +25,6 @@ jobs:
       run: |
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
-        git add src/scripts/updateCount.txt
+        git add QGIS/data/updateCount.txt
         git commit -m "Update Count"
         git push
