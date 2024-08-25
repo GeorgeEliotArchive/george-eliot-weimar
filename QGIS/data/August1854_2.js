@@ -24,23 +24,6 @@ var json_August1854_2 = {
                     50.97989624440156
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Date": "",
-                "Location": "Neu Dictendorf",
-                "Description": "20. We set off for Ilmeau by railway. I read Liszt's account of \u201cDer Fliegende Holl\u00e4nder\u201d by the way. When we reached Neu Dietendorf, we had to get into the Post Wagen which turned out to be a disagreeable omnibus-like vehicle. At Arnstadt we were placed in a Beiwagen with two other passengers and had a pleasant view of the charming country all the way to Ilmenau. But the jolting vehicles and other d\u00e9sagr\u00e9ments had made us both ill and we could only crawl to our beds about 8 o\u2019clock.",
-                "Latitude": 10.914314592187385,
-                "Longitude": 50.91012643055192
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    10.914314592187385,
-                    50.91012643055192
-                ]
-            }
         }
     ]
 };

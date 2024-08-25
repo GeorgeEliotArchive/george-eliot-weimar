@@ -1,20 +1,24 @@
 import requests
 import json
 import re
+import os
 
 # Define the Omeka API URL and the collection ID
 OMEKA_API_BASE_URL = "http://georgeeliotarchive.org/api"
 COLLECTION_ID = '68'  # Change this to '66' to test with the working collection
 
-# Define the file paths for the local JSON files
-AUGUST_FILE_PATH = "August1854_2.js"
-AUGUST_PATHS_FILE_PATH = "Paths_1.js"
-SEPTEMBER_FILE_PATH = "September1854_3.js"
-SEPTEMBER_PATHS_FILE_PATH = "Paths_4.js"
-OCTOBER_FILE_PATH = "October1854_5.js"
-OCTOBER_PATHS_FILE_PATH = "Paths_6.js"
-NOVEMBER_FILE_PATH = "November1854_7.js"
-NOVEMBER_PATHS_FILE_PATH = "Paths_8.js"
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Define the file paths for the local JSON files relative to the script's directory
+AUGUST_FILE_PATH = os.path.join(script_dir, "August1854_2.js")
+AUGUST_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_1.js")
+SEPTEMBER_FILE_PATH = os.path.join(script_dir, "September1854_3.js")
+SEPTEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_4.js")
+OCTOBER_FILE_PATH = os.path.join(script_dir, "October1854_5.js")
+OCTOBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_6.js")
+NOVEMBER_FILE_PATH = os.path.join(script_dir, "November1854_7.js")
+NOVEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_8.js")
 
 # Global variables for feature arrays
 august_features = []
