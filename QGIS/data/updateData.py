@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import os
+from itertools import groupby
 
 # Define the Omeka API URL and the collection ID
 OMEKA_API_BASE_URL = "http://georgeeliotarchive.org/api"
@@ -72,7 +73,8 @@ def create_features(data):
                         "Location": item.get('Subject', ''),
                         "Description": item.get('Description', ''),
                         "Latitude": float(coordinates[1]),
-                        "Longitude": float(coordinates[0])
+                        "Longitude": float(coordinates[0]),
+                        "Type": item.get('Type', '')
                     },
                     "geometry": {
                         "type": "Point",
@@ -173,7 +175,7 @@ def create_paths_features(data):
 
 # Function to sort features by date
 def sort_features_by_date(features):
-    return sorted(features, key=lambda f: f['properties']['Date'])
+    return sorted(features, key=lambda f: (f['properties']['Date'], int(f['properties'].get('Type', '0'))))
 
 # Function to write features to JS files
 def write_features_to_js(file_path, new_features, variable_name):
