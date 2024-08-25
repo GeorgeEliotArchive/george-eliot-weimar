@@ -19,12 +19,13 @@ jobs:
         python-version: '3.x'
 
     - name: Run updateCount.py
-      run: python3 QGIS/data/updateCount.py
+      run: python3 QGIS/data/updateData.py
 
     - name: Commit changes
       run: |
         git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
-        git add QGIS/data/updateCount.txt
-        git commit -m "Update Count"
+        git add QGIS/data/August1854_2.js
+        git add QGIS/data/Paths_1.js
+        git commit -m "Updated August Data"
         git push
