@@ -20,8 +20,6 @@ jobs:
 
     - name: Install dependencies
       run: pip install requests
-      run: pip install json
-      run: pip install re
 
     - name: Run updateData.py
       run: python3 QGIS/data/updateData.py
