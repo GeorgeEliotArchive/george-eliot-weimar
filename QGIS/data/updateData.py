@@ -12,14 +12,14 @@ COLLECTION_ID = '68'  # Change this to '66' to test with the working collection
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define the file paths for the local JSON files relative to the script's directory
-AUGUST_FILE_PATH = os.path.join(script_dir, "August1854_2.js")
+AUGUST_FILE_PATH = os.path.join(script_dir, "AugustLayer_5.js")
 AUGUST_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_1.js")
-SEPTEMBER_FILE_PATH = os.path.join(script_dir, "September1854_3.js")
-SEPTEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_4.js")
-OCTOBER_FILE_PATH = os.path.join(script_dir, "October1854_5.js")
-OCTOBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_6.js")
-NOVEMBER_FILE_PATH = os.path.join(script_dir, "November1854_7.js")
-NOVEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_8.js")
+SEPTEMBER_FILE_PATH = os.path.join(script_dir, "SeptemberLayer_6.js")
+SEPTEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_2.js")
+OCTOBER_FILE_PATH = os.path.join(script_dir, "OctoberLayer_7.js")
+OCTOBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_3.js")
+NOVEMBER_FILE_PATH = os.path.join(script_dir, "NovemberLayer_8.js")
+NOVEMBER_PATHS_FILE_PATH = os.path.join(script_dir, "Paths_4.js")
 
 # Global variables for feature arrays
 august_features = []
@@ -211,17 +211,17 @@ def main():
         sorted_november_features = sort_features_by_date(november_features)
 
         # Write sorted features to respective JS files
-        write_features_to_js(AUGUST_FILE_PATH, sorted_august_features, 'json_August1854_2')
+        write_features_to_js(AUGUST_FILE_PATH, sorted_august_features, 'json_AugustLayer_5')
         write_features_to_js(AUGUST_PATHS_FILE_PATH, august_paths_features, 'json_Paths_1')
 
-        write_features_to_js(SEPTEMBER_FILE_PATH, sorted_september_features, 'json_September1854_3')
-        write_features_to_js(SEPTEMBER_PATHS_FILE_PATH, september_paths_features, 'json_Paths_4')
+        write_features_to_js(SEPTEMBER_FILE_PATH, sorted_september_features, 'json_SeptemberLayer_6')
+        write_features_to_js(SEPTEMBER_PATHS_FILE_PATH, september_paths_features, 'json_Paths_2')
 
-        write_features_to_js(OCTOBER_FILE_PATH, sorted_october_features, 'json_October1854_5')
-        write_features_to_js(OCTOBER_PATHS_FILE_PATH, october_paths_features, 'json_Paths_6')
+        write_features_to_js(OCTOBER_FILE_PATH, sorted_october_features, 'json_OctoberLayer_7')
+        write_features_to_js(OCTOBER_PATHS_FILE_PATH, october_paths_features, 'json_Paths_3')
 
-        write_features_to_js(NOVEMBER_FILE_PATH, sorted_november_features, 'json_November1854_7')
-        write_features_to_js(NOVEMBER_PATHS_FILE_PATH, november_paths_features, 'json_Paths_8')
+        write_features_to_js(NOVEMBER_FILE_PATH, sorted_november_features, 'json_NovemberLayer_8')
+        write_features_to_js(NOVEMBER_PATHS_FILE_PATH, november_paths_features, 'json_Paths_4')
     else:
         print("No data fetched, skipping feature creation and file update.")
 

@@ -1,6 +1,6 @@
-var json_August1854_2 = {
+var json_AugustLayer_5 = {
     "type": "FeatureCollection",
-    "name": "json_August1854_2",
+    "name": "json_AugustLayer_5",
     "crs": {
         "type": "name",
         "properties": {
