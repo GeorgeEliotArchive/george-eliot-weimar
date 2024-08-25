@@ -1,4 +1,4 @@
-name: Update Count
+name: Update Data
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
     - cron: '0 * * * *'
 
 jobs:
-  update_count:
+  update_data:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,12 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Run updateCount.py
+    - name: Install dependencies
+      run: pip install requests
+      run: pip install json
+      run: pip install re
+
+    - name: Run updateData.py
       run: python3 QGIS/data/updateData.py
 
     - name: Commit changes
