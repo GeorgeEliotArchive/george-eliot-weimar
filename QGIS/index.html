@@ -333,6 +333,37 @@
                 },
                 mouseover: highlightFeature,
             });
+            var mediaType = feature.properties['Format'];
+            var mediaSource = feature.properties['Source'];
+            var mediaContent = '';
+            if (mediaType === 'Video' && mediaSource !== '') {
+                if (mediaSource.includes('youtube.com') || mediaSource.includes('youtu.be')) {
+                    var videoId = '';
+                    if (mediaSource.includes('youtube.com')) {
+                        var urlParts = mediaSource.split('v=')[1];
+                        if (urlParts) {
+                            videoId = urlParts.split('&')[0].split('#')[0];
+                        }    
+                    } 
+                    else if (mediaSource.includes('youtu.be')) {
+                        videoId = mediaSource.split('youtu.be/')[1].split('?')[0];
+                    }
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('vimeo.com')) {
+                    var vimeoId = mediaSource.split('.com/')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://player.vimeo.com/video/' + vimeoId + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('blogger.com')) {
+                    var bloggerId = mediaSource.split('token=')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.blogger.com/video.g?token=' + bloggerId + '" frameborder="0" allowfullscreen></iframe>';
+                }
+                else {
+                    mediaContent = '<video controls style="max-width:100%;height:auto;"><source src="' + mediaSource + '" type="video/mp4">Your browser does not support the video tag.</video>';
+                }
+            } else if (mediaType === 'Image' && mediaSource !== '') {
+                mediaContent = '<img src="' + mediaSource + '" alt="Media" style="max-width:100%;height:auto;">';
+            }
             var popupContent = '<table style="min-width: 250px;">\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
@@ -341,7 +372,7 @@
                         <td colspan="2"><strong>' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</strong></td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Image'] !== null ? '<img src="' + feature.properties['Image'] + '" alt="Image" style="max-width:100%;height:auto;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Source'] !== null ? mediaContent : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
@@ -401,6 +432,37 @@
                 },
                 mouseover: highlightFeature,
             });
+            var mediaType = feature.properties['Format'];
+            var mediaSource = feature.properties['Source'];
+            var mediaContent = '';
+            if (mediaType === 'Video' && mediaSource !== '') {
+                if (mediaSource.includes('youtube.com') || mediaSource.includes('youtu.be')) {
+                    var videoId = '';
+                    if (mediaSource.includes('youtube.com')) {
+                        var urlParts = mediaSource.split('v=')[1];
+                        if (urlParts) {
+                            videoId = urlParts.split('&')[0].split('#')[0];
+                        }    
+                    } 
+                    else if (mediaSource.includes('youtu.be')) {
+                        videoId = mediaSource.split('youtu.be/')[1].split('?')[0];
+                    }
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('vimeo.com')) {
+                    var vimeoId = mediaSource.split('.com/')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://player.vimeo.com/video/' + vimeoId + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('blogger.com')) {
+                    var bloggerId = mediaSource.split('token=')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.blogger.com/video.g?token=' + bloggerId + '" frameborder="0" allowfullscreen></iframe>';
+                }
+                else {
+                    mediaContent = '<video controls style="max-width:100%;height:auto;"><source src="' + mediaSource + '" type="video/mp4">Your browser does not support the video tag.</video>';
+                }
+            } else if (mediaType === 'Image' && mediaSource !== '') {
+                mediaContent = '<img src="' + mediaSource + '" alt="Media" style="max-width:100%;height:auto;">';
+            }
             var popupContent = '<table style="min-width: 250px;">\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
@@ -409,7 +471,7 @@
                         <td colspan="2"><strong>' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</strong></td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Image'] !== null ? '<img src="' + feature.properties['Image'] + '" alt="Image" style="max-width:100%;height:auto;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Source'] !== null ? mediaContent : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
@@ -469,6 +531,37 @@
                 },
                 mouseover: highlightFeature,
             });
+            var mediaType = feature.properties['Format'];
+            var mediaSource = feature.properties['Source'];
+            var mediaContent = '';
+            if (mediaType === 'Video' && mediaSource !== '') {
+                if (mediaSource.includes('youtube.com') || mediaSource.includes('youtu.be')) {
+                    var videoId = '';
+                    if (mediaSource.includes('youtube.com')) {
+                        var urlParts = mediaSource.split('v=')[1];
+                        if (urlParts) {
+                            videoId = urlParts.split('&')[0].split('#')[0];
+                        }    
+                    } 
+                    else if (mediaSource.includes('youtu.be')) {
+                        videoId = mediaSource.split('youtu.be/')[1].split('?')[0];
+                    }
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('vimeo.com')) {
+                    var vimeoId = mediaSource.split('.com/')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://player.vimeo.com/video/' + vimeoId + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('blogger.com')) {
+                    var bloggerId = mediaSource.split('token=')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.blogger.com/video.g?token=' + bloggerId + '" frameborder="0" allowfullscreen></iframe>';
+                }
+                else {
+                    mediaContent = '<video controls style="max-width:100%;height:auto;"><source src="' + mediaSource + '" type="video/mp4">Your browser does not support the video tag.</video>';
+                }
+            } else if (mediaType === 'Image' && mediaSource !== '') {
+                mediaContent = '<img src="' + mediaSource + '" alt="Media" style="max-width:100%;height:auto;">';
+            }
             var popupContent = '<table style="min-width: 250px;">\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
@@ -477,7 +570,7 @@
                         <td colspan="2"><strong>' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</strong></td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Image'] !== null ? '<img src="' + feature.properties['Image'] + '" alt="Image" style="max-width:100%;height:auto;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Source'] !== null ? mediaContent : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\
@@ -537,6 +630,37 @@
                 },
                 mouseover: highlightFeature,
             });
+            var mediaType = feature.properties['Format'];
+            var mediaSource = feature.properties['Source'];
+            var mediaContent = '';
+            if (mediaType === 'Video' && mediaSource !== '') {
+                if (mediaSource.includes('youtube.com') || mediaSource.includes('youtu.be')) {
+                    var videoId = '';
+                    if (mediaSource.includes('youtube.com')) {
+                        var urlParts = mediaSource.split('v=')[1];
+                        if (urlParts) {
+                            videoId = urlParts.split('&')[0].split('#')[0];
+                        }    
+                    } 
+                    else if (mediaSource.includes('youtu.be')) {
+                        videoId = mediaSource.split('youtu.be/')[1].split('?')[0];
+                    }
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('vimeo.com')) {
+                    var vimeoId = mediaSource.split('.com/')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://player.vimeo.com/video/' + vimeoId + '" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+                }
+                else if (mediaSource.includes('blogger.com')) {
+                    var bloggerId = mediaSource.split('token=')[1];
+                    mediaContent = '<iframe width="100%" height="auto" src="https://www.blogger.com/video.g?token=' + bloggerId + '" frameborder="0" allowfullscreen></iframe>';
+                }
+                else {
+                    mediaContent = '<video controls style="max-width:100%;height:auto;"><source src="' + mediaSource + '" type="video/mp4">Your browser does not support the video tag.</video>';
+                }
+            } else if (mediaType === 'Image' && mediaSource !== '') {
+                mediaContent = '<img src="' + mediaSource + '" alt="Media" style="max-width:100%;height:auto;">';
+            }
             var popupContent = '<table style="min-width: 250px;">\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Date'] !== null ? autolinker.link(feature.properties['Date'].toLocaleString()) : '') + '</td>\
@@ -545,7 +669,7 @@
                         <td colspan="2"><strong>' + (feature.properties['Location'] !== null ? autolinker.link(feature.properties['Location'].toLocaleString()) : '') + '</strong></td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Image'] !== null ? '<img src="' + feature.properties['Image'] + '" alt="Image" style="max-width:100%;height:auto;">' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Source'] !== null ? mediaContent : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Description'] !== null ? autolinker.link(feature.properties['Description'].toLocaleString()) : '') + '</td>\

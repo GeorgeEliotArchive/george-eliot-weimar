@@ -74,7 +74,9 @@ def create_features(data):
                         "Description": item.get('Description', ''),
                         "Latitude": float(coordinates[1]),
                         "Longitude": float(coordinates[0]),
-                        "Type": item.get('Type', '')
+                        "Type": item.get('Type', ''),
+                        "Source": item.get('Source', ''),
+                        "Format": item.get('Format', '')
                     },
                     "geometry": {
                         "type": "Point",
