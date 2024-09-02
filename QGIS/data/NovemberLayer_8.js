@@ -51,6 +51,26 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "Date": "1854-11-02",
+                "Location": "The Altenburg",
+                "Description": "\"Breakfasted at Liszt's and said goodbye. The Marquis de Ferriere and Cornelius there.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.335334123792492,
+                "Longitude": 50.98263674853141,
+                "Type": "3",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.335334123792492,
+                    50.98263674853141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Date": "1854-11-03",
                 "Location": "Anhalter Bahnhof",
                 "Description": "\"Hofrath Sch\u00f6ll came to say goodbye and brought me Uhland's poems as a parting present. We set off from the Weimar station at 1/2 past one, and reached Berlin at 1/2 past 9.\" - George Eliot, Personal Diary (1854)",
