@@ -34,8 +34,8 @@ var json_NovemberLayer_8 = {
                 "Date": "1854-11-02",
                 "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
-                "Latitude": 11.335334123792492,
-                "Longitude": 50.98263674853141,
+                "Latitude": 11.333389102086395,
+                "Longitude": 50.980390969995135,
                 "Type": "2",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
@@ -43,8 +43,8 @@ var json_NovemberLayer_8 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.335334123792492,
-                    50.98263674853141
+                    11.333389102086395,
+                    50.980390969995135
                 ]
             }
         },
@@ -65,6 +65,26 @@ var json_NovemberLayer_8 = {
                 "coordinates": [
                     11.335334123792492,
                     50.98263674853141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-11-03",
+                "Location": "Weimar Station",
+                "Description": "\"Hofrath Sch\u00f6ll came to say goodbye and brought me Uhland's poems as a parting present. We set off from the Weimar station at 1/2 past one, and reached Berlin at 1/2 past 9.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.326400568566896,
+                "Longitude": 50.991367900289305,
+                "Type": "4",
+                "Source": "https://1.bp.blogspot.com/-s6nKJz64hbc/XKoJTfX_OmI/AAAAAAAAA6s/SKxE8bneaLktBtirA01OevnqtyBh3gFaACLcBGAs/s320/Bahnhof01.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.326400568566896,
+                    50.991367900289305
                 ]
             }
         },
