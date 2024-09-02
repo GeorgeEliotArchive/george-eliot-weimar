@@ -98,29 +98,22 @@ def create_features(data):
                     elif month == 11:
                         november_features.append(new_feature)
 
-# Function to create paths features for each month
+# Function to create paths features for each month using sorted features
 def create_paths_features(data):
-    august_coordinates = []
-    september_coordinates = []
-    october_coordinates = []
-    november_coordinates = []
+    global august_features, september_features, october_features, november_features
+    global august_paths_features, september_paths_features, october_paths_features, november_paths_features
+
+    # Sort the features for each month
+    sorted_august_features = sort_features_by_date(august_features)
+    sorted_september_features = sort_features_by_date(september_features)
+    sorted_october_features = sort_features_by_date(october_features)
+    sorted_november_features = sort_features_by_date(november_features)
     
-    for item in data:
-        if item.get('Coverage'):
-            coords = re.findall(r'\d+\.\d+', item['Coverage'])
-            if len(coords) >= 2 and coords[0].startswith("0.") and coords[1].startswith("0."):
-                coords = coords[2:]
-            if len(coords) == 2:
-                if 'Date' in item and re.match(r'\d{4}-\d{2}-\d{2}', item['Date']):
-                    month = int(item['Date'][5:7])
-                    if month == 8:
-                        august_coordinates.append([float(coords[1]), float(coords[0])])
-                    elif month == 9:
-                        september_coordinates.append([float(coords[1]), float(coords[0])])
-                    elif month == 10:
-                        october_coordinates.append([float(coords[1]), float(coords[0])])
-                    elif month == 11:
-                        november_coordinates.append([float(coords[1]), float(coords[0])])
+    # Extract coordinates from the sorted features, ensuring longitude comes before latitude
+    august_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_august_features]
+    september_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_september_features]
+    october_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_october_features]
+    november_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_november_features]
     
     # Create path features for each month
     if august_coordinates:
@@ -233,5 +226,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
