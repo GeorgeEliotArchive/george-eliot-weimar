@@ -65,6 +65,8 @@ def create_features(data):
     for item in data:
         if item.get('Coverage'):
             coordinates = re.findall(r'\d+\.\d+', item['Coverage'])
+            if len(coordinates) >= 2 and coordinates[0].startswith("0.") and coordinates[1].startswith("0."):
+                coordinates = coordinates[2:]
             if len(coordinates) == 2:
                 new_feature = {
                     "type": "Feature",
@@ -106,6 +108,8 @@ def create_paths_features(data):
     for item in data:
         if item.get('Coverage'):
             coords = re.findall(r'\d+\.\d+', item['Coverage'])
+            if len(coords) >= 2 and coords[0].startswith("0.") and coords[1].startswith("0."):
+                coords = coords[2:]
             if len(coords) == 2:
                 if 'Date' in item and re.match(r'\d{4}-\d{2}-\d{2}', item['Date']):
                     month = int(item['Date'][5:7])
