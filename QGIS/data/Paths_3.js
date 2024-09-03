@@ -7,5 +7,22 @@ var json_Paths_3 = {
             "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
         }
     },
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "begin": "2",
+                "end": "3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.33225976322935,
+                        50.98070085174936
+                    ]
+                ]
+            }
+        }
+    ]
 };
