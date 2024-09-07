@@ -51,6 +51,26 @@ var json_SeptemberLayer_6 = {
         {
             "type": "Feature",
             "properties": {
+                "Date": "1854-09-18",
+                "Location": "Erbprinz",
+                "Description": "\"Liszt came to dine with us at the Erbprinz and introduced M. Rubinstein, a young Russian, who is about to have an opera of his performed here.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.33059637175983,
+                "Longitude": 50.97894456968476,
+                "Type": "1",
+                "Source": "https://1.bp.blogspot.com/-T29sgKATzDg/XExq6SuvnCI/AAAAAAAAAyw/IHz8e3NUY1kEYE2HWZUHYOWLyxB68QZNQCLcBGAs/s400/Erbprinz.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33059637175983,
+                    50.97894456968476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Date": "1854-09-19",
                 "Location": "Residenzschlob",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",

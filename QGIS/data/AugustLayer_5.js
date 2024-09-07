@@ -71,6 +71,46 @@ var json_AugustLayer_5 = {
         {
             "type": "Feature",
             "properties": {
+                "Date": "1854-08-03",
+                "Location": "Erbprinz",
+                "Description": "\"We got a little tired and leg-achy before we reached Weimar at 1/2 past 3, but after a little difficulty we got some tolerable beds at the Erbprinz and slept away our fatigue by 9 o'clock.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.33059637175983,
+                "Longitude": 50.97894456968476,
+                "Type": "2",
+                "Source": "https://1.bp.blogspot.com/-T29sgKATzDg/XExq6SuvnCI/AAAAAAAAAyw/IHz8e3NUY1kEYE2HWZUHYOWLyxB68QZNQCLcBGAs/s400/Erbprinz.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33059637175983,
+                    50.97894456968476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-04",
+                "Location": "Erbprinz",
+                "Description": "\"We took possession of our lodgings this morning and had enough to do before dinner in arranging our books etc. We pay 9 thalers per month for our lodgings. Our dinner at the Erbprinz is 12 1/2 groschen = about 15d.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.33059637175983,
+                "Longitude": 50.97894456968476,
+                "Type": "2",
+                "Source": "https://1.bp.blogspot.com/-T29sgKATzDg/XExq6SuvnCI/AAAAAAAAAyw/IHz8e3NUY1kEYE2HWZUHYOWLyxB68QZNQCLcBGAs/s400/Erbprinz.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33059637175983,
+                    50.97894456968476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "Date": "1854-08-08",
                 "Location": "Residenzschlob",
                 "Description": "\"L. called on Sch\u00f6ll, and in the afternoon he (Sch\u00f6ll) came and took us to the Schloss where we saw the Dichter Zimmer.\" - George Eliot, Personal Diary (1854)",
@@ -165,6 +205,46 @@ var json_AugustLayer_5 = {
                 "coordinates": [
                     11.33225976322935,
                     50.98070085174936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-15",
+                "Location": "Erbprinz",
+                "Description": "\"We had our names set down for the Table d'he at the Erbprinz, by which means our dinners will only cost us 10 silver groschen each. Our expenses here, including wine and washing are 2.6 per week. Liszt called and sat chatting for an hour with me.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.33059637175983,
+                "Longitude": 50.97894456968476,
+                "Type": "1",
+                "Source": "https://1.bp.blogspot.com/-T29sgKATzDg/XExq6SuvnCI/AAAAAAAAAyw/IHz8e3NUY1kEYE2HWZUHYOWLyxB68QZNQCLcBGAs/s400/Erbprinz.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33059637175983,
+                    50.97894456968476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-17",
+                "Location": "Erbprinz",
+                "Description": "\"Liszt dined with us at the Erbprinz and came home with us to take coffee. Much pleasant chat. Afterwards L. and I walked to Belvedere.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.33059637175983,
+                "Longitude": 50.97894456968476,
+                "Type": "1",
+                "Source": "https://1.bp.blogspot.com/-T29sgKATzDg/XExq6SuvnCI/AAAAAAAAAyw/IHz8e3NUY1kEYE2HWZUHYOWLyxB68QZNQCLcBGAs/s400/Erbprinz.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33059637175983,
+                    50.97894456968476
                 ]
             }
         },
