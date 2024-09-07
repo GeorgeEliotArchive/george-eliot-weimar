@@ -87,6 +87,26 @@ var json_AugustLayer_5 = {
                     50.98070085174936
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-24",
+                "Location": "Schiller's House",
+                "Description": "\"Wrote all morning. Afternoon, went to Schiller's house. Stupidity of people tricking out and altering such a place instead of letting one see it as he saw it and lived in it. I played on his little claven, in which lay his guitar; Vogel-schiessen, Punch.\" - George Eliot, Personal Diary (1854)",
+                "Latitude": 11.327800653801447,
+                "Longitude": 50.97896748038617,
+                "Type": "1",
+                "Source": "https://4.bp.blogspot.com/-GQr16wESxVk/XEx3kCm9zTI/AAAAAAAAAzs/Yd8HupoFYts4pmwr9xb0XKXJV3upAXiLwCEwYBhgL/s320/Schillerhaus_K1-65_3.jpg",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.327800653801447,
+                    50.97896748038617
+                ]
+            }
         }
     ]
 };
