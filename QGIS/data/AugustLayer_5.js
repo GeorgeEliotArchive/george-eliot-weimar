@@ -112,6 +112,26 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
+                "Location": "Residenzschlob",
+                "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
+                "Latitude": 11.33225976322935,
+                "Longitude": 50.98070085174936,
+                "Type": "1",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg/1600px-Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg?20171220084316",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33225976322935,
+                    50.98070085174936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-13",
                 "Location": "The Altenburg",
                 "Description": "\"Another glorious morning! But L.'s head is bad, and that makes us melancholy. We called on the Princess and strolled till dinner. Finished Cousin's book on Madame de Sable. In the evening we walked to Ober Weimar and satisfied ourselves that the village was very ugly.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.335334123792492,
@@ -125,6 +145,26 @@ var json_AugustLayer_5 = {
                 "coordinates": [
                     11.335334123792492,
                     50.98263674853141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-13",
+                "Location": "Residenzschlob",
+                "Description": "\"The route described by Lewes in his Life starts at the Residenzschlo\u00df , crosses the old stone bridge, the Sternbr\u00fccke, and passes the Sphinx Grotto (said to have been Liszt's favourite spot) with its circular water basin reflecting the passing clouds and the trunks of trees nearby. Until the beginning of this century women from the town would wash their laundry there and lay it out to dry on the grass nearby. Across the Sterngarten is Goethe's Gartenhaus.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
+                "Latitude": 11.33225976322935,
+                "Longitude": 50.98070085174936,
+                "Type": "5",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg/1600px-Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg?20171220084316",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33225976322935,
+                    50.98070085174936
                 ]
             }
         },
@@ -145,6 +185,26 @@ var json_AugustLayer_5 = {
                 "coordinates": [
                     11.327800653801447,
                     50.97896748038617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Date": "1854-08-28",
+                "Location": "Residenzschlob",
+                "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
+                "Latitude": 11.33225976322935,
+                "Longitude": 50.98070085174936,
+                "Type": "1",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg/1600px-Weimar%2C_Th\u00fcringen_-_Gro\u00dfherzogl._Schloss_%28Zeno_Ansichtskarten%29.jpg?20171220084316",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.33225976322935,
+                    50.98070085174936
                 ]
             }
         },
