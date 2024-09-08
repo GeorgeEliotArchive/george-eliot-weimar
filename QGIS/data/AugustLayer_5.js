@@ -92,7 +92,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
+                "Location": "Herderplatz",
                 "Description": "\u201cThe only one of its great men to whom Weimar has at present erected a statue in the open air is Herder. His statue, inaugurated in 1850, stands in what is called the Herder Platz, with its back to the church in which he preached. In the right hand, is a scroll bearing his favorite motto\u2014'Licht, Liebe, Leben' (Light, Love, Life), and on the pedestal is the inscription 'von Deutschen aller L\u00e4nde (from Germans of all lands). This statue, which is by Schaller of Munich, is very much admired; but, remembering the immortal description in the 'Dichtung und Wahrheit,' of Herder's appearance when Goethe saw him for the first time at Strasbourg, I was disappointed with the parsonic appearance of the statue, as well as of the bust in the library.\u201d - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.3293633852848,
                 "Longitude": 50.9810525892907,
@@ -112,7 +112,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
+                "Location": "Markt and Rathhaus",
                 "Description": "\"It was very pretty to look out of the window, when dressing, on a garden that reminded one of an English Village. Our walk in search of lodgings made us acquainted with the physiognomy of the town, which is more like a huge village or market town than the precinct of a court.\" - George Eliot ",
                 "Latitude": 11.32975498780098,
                 "Longitude": 50.979320838159104,
@@ -132,7 +132,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"We soon obtained some lodgings and here we are at 62a Kaufgasse at the house of Frau Mtinderloh, on the whole as comfortable as need be.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -152,7 +152,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
+                "Location": "Belvedere Chaussee",
                 "Description": "\"Our ideas were considerably modified when, in the evening, we found our way to the Belvedere chaussee, a splendid avenue of chestnut trees, two miles in length, reaching from the town to the summer residence of Belvedere.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.33470418152765,
                 "Longitude": 50.96981474109462,
