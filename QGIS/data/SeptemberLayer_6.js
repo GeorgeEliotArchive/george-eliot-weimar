@@ -12,7 +12,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Bercka",
                 "Description": "\"I went with G. to Bercka for the first time. A little Elysium and the way to it very lovely.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
@@ -32,7 +32,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Table d'Hotel (Thuringia)",
                 "Description": "\"The meat at a table d'hote in Thuringia, and even at Berlin, except in the very first hotels, bears about the same relation to ours as cat or horse-flesh probably bears to German beef and mutton; and an Englishman with a bandage over his eyes would often be sorely puzzled to guess the kind of flesh he was eating\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
@@ -52,7 +52,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Kurhaus",
                 "Description": "\u201cA programme of drinking the mineral-rich spring-water in the Kurhaus, bathing and undergoing other natural treatments to improve one's health and constitution were usually prescribed by the physician. But promenading in the Kurpark, shopping for luxuries, dining elegantly, dancing in the ball-room of the Kurhaus, attending the open-air concerts and other light entertainment or gambling in the casino were as much part of the spa tradition as the search for health and physical well-being.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.291218730683047,
                 "Longitude": 50.90408625330012,
@@ -72,7 +72,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Kurpark",
                 "Description": "\u201cA programme of drinking the mineral-rich spring-water in the Kurhaus, bathing and undergoing other natural treatments to improve one's health and constitution were usually prescribed by the physician. But promenading in the Kurpark, shopping for luxuries, dining elegantly, dancing in the ball-room of the Kurhaus, attending the open-air concerts and other light entertainment or gambling in the casino were as much part of the spa tradition as the search for health and physical well-being.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.288402118875274,
                 "Longitude": 50.8984869497564,
@@ -92,7 +92,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Al Fresco",
                 "Description": "\"We dined al fresco in the presence of a pretty little meadow scene with holy oaks in the foreground. In returning, the evening was enchanting.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.26711853914027,
                 "Longitude": 50.904676591311635,
@@ -112,8 +112,8 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
-                "Description": "\"The walk to Bercka and back was a favorite expedition with us and a few Weimar friends, for the road thither is a pleasant one, leading at first through open cultivated fields, dotted here and there with villages, and then through wooded hills\u2014the outskirts of the Thuringian Forest. We used not to despise the fine plums which hung in tempting abundance by the road-side; but we afterward found that we had been deceived in supposing ourselves free to pluck them, as if it were the golden age, and that we were liable to a penalty of ten groschen for our depredations.\" - George Eliot, Three Months in Weimar",
+                "Location": "Road near Thuringian Forest from Bercka to Weimar",
+                "Description": "\"The walk to Bercka and back was a favorite expedition with us and a few Weimar friends, for the road thither is a pleasant one, leading at first through open cultivated fields, dotted here and there with villages, and then through wooded hills\u2014the outskirts of the Thuringian Forest. We used not to despise the fine plums which hung in tempting abundance by the road-side; but we afterward found that we had been deceived in supposing ourselves free to pluck them, as if it were the golden age, and that we were liable to a penalty of ten groschen for our depredations.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 10.833162451221062,
                 "Longitude": 50.66781591610213,
                 "Type": "6",
@@ -132,7 +132,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Road through Gelmeroda",
                 "Description": "\"We used not to despise the nice plums that were to be plucked on the way after we had reached Gelmeroda, but we were undeceived at last in our idea that we might take the fruit by the roadside as if it were the golden age\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.303102349887093,
                 "Longitude": 50.95222524052531,
@@ -152,7 +152,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"We dined al fresco in the presence of a pretty little meadow scene with holy oaks in the foreground. In returning, the evening was enchanting.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -172,7 +172,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-03",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"Bad headache and unable to work. In the evening we went to Belvedere, and I saw several parts of the garden which were new to me.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
@@ -192,7 +192,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-08",
-                "Location": "",
+                "Location": "Russischer Hof (Post Office)",
                 "Description": "\"Sent off my article on Mme. de Sable. Went to Tiefurt in the evening.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
@@ -212,7 +212,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-08",
-                "Location": "",
+                "Location": "Tiefurt",
                 "Description": "\"Sent off my article on Mme. de Sable. Went to Tiefurt in the evening.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
@@ -232,7 +232,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-08",
-                "Location": "",
+                "Location": "Tiefurt Park",
                 "Description": "\"Tiefurt was a favourite resort of ours, for the walk to it is a very pleasant one and the Tiefurt park is a little paradise. The Ilm is seen here to the best advantage; it is clearer than at Weimar, and winds about gracefully among fine trees.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.364988951845044,
                 "Longitude": 50.99481146619207,
@@ -252,8 +252,8 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-08",
-                "Location": "",
-                "Description": "\"In the opposite direction to Belvedere lies Tiefurt, with its small park and tiny ch\u00e2teau, formerly the residence of the Duchess Amalia, the mother of Carl August, and the friend and patroness of Wieland, but now apparently serving as little else than a receptacle for the late Duke Carl Friederich's rather childish collections. In the second story there is a suite of rooms, so small that the largest of them does not take up as much space as a good dining-table, and each of these dollhouse rooms is crowded with prints, old china, and all sorts of knick-knacks and rococo wares.\" - George Eliot",
+                "Location": "Chateau of Duchess Amalia",
+                "Description": "\"In the opposite direction to Belvedere lies Tiefurt, with its small park and tiny ch\u00e2teau, formerly the residence of the Duchess Amalia, the mother of Carl August, and the friend and patroness of Wieland, but now apparently serving as little else than a receptacle for the late Duke Carl Friederich's rather childish collections. In the second story there is a suite of rooms, so small that the largest of them does not take up as much space as a good dining-table, and each of these dollhouse rooms is crowded with prints, old china, and all sorts of knick-knacks and rococo wares.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
                 "Type": "4",
@@ -272,7 +272,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-09",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"We went to Belvedere and spent the day there.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
@@ -292,7 +292,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-10",
-                "Location": "",
+                "Location": "Russischer Hof (Post Office)",
                 "Description": "\"Wrote to Miss Parkes. Then we walked out in the fields towards Gelmeroda and sat in the sunshine. In the evening, to a party at Liszt's - Herrmann's conjuring the chief amusement. Medallion of Liszt by Rietschl very fine.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
@@ -312,7 +312,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-10",
-                "Location": "",
+                "Location": "Fields towards Gelmeroda",
                 "Description": "\"Wrote to Miss Parkes. Then we walked out in the fields towards Gelmeroda and sat in the sunshine. In the evening, to a party at Liszt's - Herrmann's conjuring the chief amusement. Medallion of Liszt by Rietschl very fine.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.314674386881785,
                 "Longitude": 50.96373384741428,
@@ -392,7 +392,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-11",
-                "Location": "",
+                "Location": "Webicht",
                 "Description": "\"Walked in the Webicht, and talked of art. In the afternoon we went to Jena. Much struck by the scenery. Slept at the Sonne.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
@@ -412,7 +412,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-11",
-                "Location": "",
+                "Location": "Valley of the Saal",
                 "Description": "\"The first [sight] of the valley of the Saal in which Jena stands was very striking to us - the bold and rocky hills are in strong contrast with the modest elevations round Weimar; but the town itself looked thoroughly dismal and ugly as we walked from our Wagen in search of the Sonne.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.561355941867385,
                 "Longitude": 50.93714558465553,
@@ -432,7 +432,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-11",
-                "Location": "",
+                "Location": "Jena",
                 "Description": "\"Walked in the Webicht, and talked of art. In the afternoon we went to Jena. Much struck by the scenery. Slept at the Sonne.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.590436995800555,
                 "Longitude": 50.929329751034764,
@@ -452,7 +452,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-11",
-                "Location": "",
+                "Location": "The Sonne",
                 "Description": "\"Walked in the Webicht, and talked of art. In the afternoon we went to Jena. Much struck by the scenery. Slept at the Sonne.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
@@ -472,7 +472,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-11",
-                "Location": "",
+                "Location": "Table d'Hotel (Sonne)",
                 "Description": "\"Over dinner the previous evening, she and Lewes had indulged in their usual attempts at classification and, judging the man by his features, had decided that he must be a grocer without his apron.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
@@ -492,7 +492,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "Goethe's Rooms at the Tanne",
                 "Description": "\"Saw Goethe's rooms at the Tanne, now occupied by Dr. Widmann and his wife, a niece of Neander's. We then walked up the Hausberg, and had an enchanting view of the little village of Lichtenhain, nestled among trees in a lovely valley. The winding walk among the pines and firs, the wild flowers, the delicious air and the unclouded sky were intoxicating.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.59684731779097,
                 "Longitude": 50.92857146037792,
@@ -512,7 +512,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "The Hausberg",
                 "Description": "\"Saw Goethe's rooms at the Tanne, now occupied by Dr. Widmann and his wife, a niece of Neander's. We then walked up the Hausberg, and had an enchanting view of the little village of Lichtenhain, nestled among trees in a lovely valley. The winding walk among the pines and firs, the wild flowers, the delicious air and the unclouded sky were intoxicating. The town of Jena is unmitigatedly dull and ugly, but Nature around it is enough to reconcile one to being there a short time. As we sat on the side of the hill, in ascending, the town looked very pretty and we heard scarcely a sound except the music of a band at various distances\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.608888899999943,
                 "Longitude": 50.92442356140586,
@@ -532,7 +532,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "Lichtenhain",
                 "Description": "\"Saw Goethe's rooms at the Tanne, now occupied by Dr. Widmann and his wife, a niece of Neander's. We then walked up the Hausberg, and had an enchanting view of the little village of Lichtenhain, nestled among trees in a lovely valley. The winding walk among the pines and firs, the wild flowers, the delicious air and the unclouded sky were intoxicating.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.567754542547654,
                 "Longitude": 50.91612478293124,
@@ -552,7 +552,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "The Sonne",
                 "Description": "\"We came home by a Wagen which started from the Sonne at 4. I was amazed at the beauty of the road, which I had not seen well as we went, from being shut up in a close Wagen. The evening sky was beautiful and we had full leisure to observe it, for we did not reach Weimar till 1/2 past 7. The little town looked more bright and cheety than ever after Jena\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
@@ -572,7 +572,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "Webicht",
                 "Description": "\"As we got nearer Weimar and the way became less varied we had another kind of beauty - that of the evening sky, which was fleckered with rosy clouds. We drove through the Webicht by twilight and were glad to find ourselves comfortably at home again with our books about us instead of being shivering at the Sonne with nothing to do.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
@@ -592,7 +592,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "Halfway House Between Jena and Weimar",
                 "Description": "\"I forgot to write that when we stopped at a half way house, one of our fellow travellers, a man who had dined with us at the Sonne and whom we had pronounced to be an \u00e9picier who looked incomplete without his apron, approached G. who was standing near the horses and said: Parlez-vous Fran\u00e7ais, monsieur? 'Oui, monsieur'. Vous allez \u00e0 Weimar, monsieur. 'Oui monsieur. J'y ai demeure depuis six semaines'. 'Est-ce que cela vous a plait?' etc. etc. I enjoyed this dialogue immensely, and we afterward referred to our ambitious grocer who was anxious to shew his knowledge of French.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.452207694443548,
                 "Longitude": 50.967483626469964,
@@ -612,7 +612,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-12",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"We came home by a Wagen which started from the Sonne at 4. I was amazed at the beauty of the road, which I had not seen well as we went, from being shut up in a close Wagen. The evening sky was beautiful and we had full leisure to observe it, for we did not reach Weimar till 1/2 past 7. The little town looked more bright and cheety than ever after Jena\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -632,8 +632,8 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-13",
-                "Location": "",
-                "Description": "\"I was not at all well and overwalked myself by going to Belvedere in the evening. The Sch\u00f6lls and Sauppes were there.\"",
+                "Location": "Belvedere Schloss",
+                "Description": "\"I was not at all well and overwalked myself by going to Belvedere in the evening. The Sch\u00f6lls and Sauppes were there.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
@@ -652,7 +652,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-14",
-                "Location": "",
+                "Location": "Open Field",
                 "Description": "\"Very unwell this morning, and glad in the afternoon to hear that Liszt wished to put off our going to him. We had a delicious walk in the open fields, came home, and finished the M. S. of Goethe's life.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.313143274872322,
                 "Longitude": 50.970308496694656,
@@ -672,7 +672,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-14",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"Very unwell this morning, and glad in the afternoon to hear that Liszt wished to put off our going to him. We had a delicious walk in the open fields, came home, and finished the M. S. of Goethe's life.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -692,7 +692,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-16",
-                "Location": "",
+                "Location": "Hoftheater (Weimar Theater)",
                 "Description": "\"We went to the Weimar Theatre for the first time and heard Ernani.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
