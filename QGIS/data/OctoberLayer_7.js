@@ -472,12 +472,12 @@ var json_OctoberLayer_7 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-10-28",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -532,12 +532,12 @@ var json_OctoberLayer_7 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-10-29",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -572,7 +572,7 @@ var json_OctoberLayer_7 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-10-30",
-                "Location": "",
+                "Location": "Russischer Hof (Post Office)",
                 "Description": "\"I wrote to Mr. Chapman, acknowledging the receipt of the 15 for my article on Mde. de Sabl G. dined at Mr.J. Horrocks's and in the evening we had music at Mr. Wilson's.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,

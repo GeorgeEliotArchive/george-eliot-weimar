@@ -872,7 +872,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"Another glorious morning! But L.'s head is bad, and that makes us melancholy. We called on the Princess and strolled till dinner. Finished Cousin's book on Madame de Sable. In the evening we walked to Ober Weimar and satisfied ourselves that the village was very ugly.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -912,12 +912,12 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\"The route described by Lewes in his Life starts at the Residenzschlo\u00df , crosses the old stone bridge, the Sternbr\u00fccke, and passes the Sphinx Grotto (said to have been Liszt's favourite spot) with its circular water basin reflecting the passing clouds and the trunks of trees nearby. Until the beginning of this century women from the town would wash their laundry there and lay it out to dry on the grass nearby. Across the Sterngarten is Goethe's Gartenhaus.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -932,7 +932,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Sphinx Grotto",
                 "Description": "\"The route described by Lewes in his Life starts at the Residenzschlo\u00df , crosses the old stone bridge, the Sternbr\u00fccke, and passes the Sphinx Grotto (said to have been Liszt's favourite spot) with its circular water basin reflecting the passing clouds and the trunks of trees nearby. Until the beginning of this century women from the town would wash their laundry there and lay it out to dry on the grass nearby. Across the Sterngarten is Goethe's Gartenhaus.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
                 "Latitude": 11.33482212144873,
                 "Longitude": 50.979550517309576,
@@ -952,7 +952,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Sterngarten",
                 "Description": "\"The route described by Lewes in his Life starts at the Residenzschlo\u00df , crosses the old stone bridge, the Sternbr\u00fccke, and passes the Sphinx Grotto (said to have been Liszt's favourite spot) with its circular water basin reflecting the passing clouds and the trunks of trees nearby. Until the beginning of this century women from the town would wash their laundry there and lay it out to dry on the grass nearby. Across the Sterngarten is Goethe's Gartenhaus.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
                 "Latitude": 11.336239688888927,
                 "Longitude": 50.97666208438207,
@@ -972,7 +972,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Goethe's Gartenhaus",
                 "Description": "\"On the other side of the Ilm the park is bordered by the road leading to the little village of Ober Weimar, another sunny walk which as the special attraction of taking one by Goethe's Gartenhaus, his first residence at Weimar\". George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.33678685577008,
                 "Longitude": 50.97601220565277,
@@ -1012,7 +1012,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "Park at Ettersburg",
                 "Description": "\"Presently we passed out of the pine wood into one of limes, beeches and other trees of light foliage through which the sunlight played like a living thing. G. made this place echo with his imitation of Kean's Othello for my amusement. At length, after a rest in the wood, we came into the open park in front of the Schloss which is finely placed on an eminence commanding a magnificent view of the far-reaching woods.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.272627311163127,
                 "Longitude": 51.03265838102817,
@@ -1032,7 +1032,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "Ettersburg",
                 "Description": "\"We devoted the day to an expedition to Ettersburg. On our return homewards the solemn grandeur of the Pine forest, in contrast with the sunbathed woods through which we had been passing, had a strong effect on us. The Chaussee has a bordering of cherry trees and mountain ashes. The bunches of coral berries gladdened our eyes.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.273951473753957,
                 "Longitude": 51.03241914865294,
@@ -1052,7 +1052,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "Moosh\u00fctte",
                 "Description": "\"A beautiful walk through a beechwood took us to the Moosh\u00fctte where we rested on the rustic bench near the door and took our luncheon. Before this Moosh\u00fctte stands the beech on which Goethe and his friends cut their names and from which Goethe denounced Woldemar. We could recognize some of the initials. The tree has been shattered by lightning and is protected by a piece of sheet-lead. We were very jolly over our luncheon and right glad of the small bottle of wine which we had felt it rather a corv\u00e9e to carry.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.25149860740966,
                 "Longitude": 51.0232027260418,
@@ -1072,7 +1072,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "Pine Forest",
                 "Description": "\"We devoted the day to an expedition to Ettersburg. On our return homewards the solemn grandeur of the Pine forest, in contrast with the sunbathed woods through which we had been passing, had a strong effect on us. The Chaussee has a bordering of cherry trees and mountain ashes. The bunches of coral berries gladdened our eyes.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.248025841813757,
                 "Longitude": 51.02629872179585,
@@ -1092,7 +1092,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "The Chausee",
                 "Description": "\"We devoted the day to an expedition to Ettersburg. On our return homewards the solemn grandeur of the Pine forest, in contrast with the sunbathed woods through which we had been passing, had a strong effect on us. The Chaussee has a bordering of cherry trees and mountain ashes. The bunches of coral berries gladdened our eyes.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.305989726803709,
                 "Longitude": 51.010976393782315,
@@ -1112,7 +1112,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-14",
-                "Location": "",
+                "Location": "Weimar Entrance",
                 "Description": "\"About half past five, hot, aching and adust, we entered Weimar and found a glass of cold water from a pump by the roadside delicious as nectar\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.312180690202993,
                 "Longitude": 51.002993800913934,
@@ -1172,7 +1172,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-17",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"Liszt dined with us at the Erbprinz and came home with us to take coffee. Much pleasant chat. Afterwards L. and I walked to Belvedere.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -1192,7 +1192,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-17",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"Liszt dined with us at the Erbprinz and came home with us to take coffee. Much pleasant chat. Afterwards L. and I walked to Belvedere.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
@@ -1212,10 +1212,10 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-22",
-                "Location": "",
+                "Location": "Heckentheater (Natur-Theatre)",
                 "Description": "\"Head still bad. Walked to Belvedere and saw the Theatre in the garden.\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 11.34907669930688,
-                "Longitude": 50.94828130000382,
+                "Latitude": 11.347039517504848,
+                "Longitude": 50.94778235107361,
                 "Type": "4",
                 "Source": "",
                 "Format": "Image"
@@ -1223,8 +1223,8 @@ var json_AugustLayer_5 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.34907669930688,
-                    50.94828130000382
+                    11.347039517504848,
+                    50.94778235107361
                 ]
             }
         },
@@ -1232,7 +1232,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-23",
-                "Location": "",
+                "Location": "Vogelschiessen",
                 "Description": "\"Better. Wrote a little. Invited to Liszt's but did not go. Went to the Vogel-schiessenin the evening and saw Punch etc.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329720692129492,
                 "Longitude": 50.9794250060172,
@@ -1272,7 +1272,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-24",
-                "Location": "",
+                "Location": "Vogelschiessen",
                 "Description": "\"Wrote all morning. Afternoon, went to Schiller's house. Stupidity of people tricking out and altering such a place instead of letting one see it as he saw it and lived in it. I played on his little claven, in which lay his guitar; Vogel-schiessen, Punch.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329720692129492,
                 "Longitude": 50.9794250060172,
@@ -1292,7 +1292,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-25",
-                "Location": "",
+                "Location": "Goethe's House",
                 "Description": "\"Goethe's House. Study and Bedroom.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.32870401487555,
                 "Longitude": 50.97757379413026,
@@ -1332,12 +1332,12 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-28",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -1372,7 +1372,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-30",
-                "Location": "",
+                "Location": "Ettersburg",
                 "Description": "\"Arthur Helps came yesterday to Weimar on his way to Dresden. L was with him all morning. He took coffee with us after dinner. In the evening we drove to Ettersburg, and he entertained us with charming stories about his Spanish travels.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.273951473753957,
                 "Longitude": 51.03241914865294,
