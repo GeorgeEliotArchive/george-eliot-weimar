@@ -652,7 +652,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-14",
-                "Location": "Open Field",
+                "Location": "Open Fields",
                 "Description": "\"Very unwell this morning, and glad in the afternoon to hear that Liszt wished to put off our going to him. We had a delicious walk in the open fields, came home, and finished the M. S. of Goethe's life.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.313143274872322,
                 "Longitude": 50.970308496694656,
@@ -792,7 +792,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-20",
-                "Location": "",
+                "Location": "Neu Dietendorf",
                 "Description": "\"We set off for Ilmenau by railway. I read Liszt's account of\"Der Fliegende Hollander\" by the way. When we reached Neu Dietendorf, we had to get into the Post Wagen which turned out to be a disagreeable omnibus-like vehicle.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.91036343214711,
                 "Longitude": 50.91174772122808,
@@ -812,7 +812,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-20",
-                "Location": "",
+                "Location": "Arnstadt",
                 "Description": "\"At Arnstadt we were placed in a Beiwagen with two other passengers and had a pleasant view of the charming country all the way to Ilmenau. But the jolting vehicles and other dagrents had made us both ill and we could only crawl to our beds about 8 o'clock.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.947723862597154,
                 "Longitude": 50.83482657443662,
@@ -832,7 +832,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-20",
-                "Location": "",
+                "Location": "Ilmenau",
                 "Description": "\"We set off for Ilmenau by railway. I read Liszt's account of\"Der Fliegende Hollander\" by the way. When we reached Neu Dietendorf, we had to get into the Post Wagen which turned out to be a disagreeable omnibus-like vehicle. At Arnstadt we were placed in a Beiwagen with two other passengers and had a pleasant view of the charming country all the way to Ilmenau. But the jolting vehicles and other dagrents had made us both ill and we could only crawl to our beds about 8 o'clock.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.925450128620847,
                 "Longitude": 50.68443879505556,
@@ -852,7 +852,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-20",
-                "Location": "",
+                "Location": "Hotel zum Lowen",
                 "Description": "\u201cSoon after their arrival at the Hotel zum Lowen, they crawled to bed exhausted.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 10.912532610822034,
                 "Longitude": 50.68381340303546,
@@ -872,7 +872,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-21",
-                "Location": "",
+                "Location": "Pine Woods",
                 "Description": "\"We were better this morning but not equal to much walking. We rambled to a pretty stream and there sat watching a caterpillar. When it had been cut in two the fore-part set to work to devour the other hal In the afternoon we had a two hours' walk in the pine woods. They are sublime.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.892728200694892,
                 "Longitude": 50.684406730334786,
@@ -892,7 +892,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-21",
-                "Location": "",
+                "Location": "The Ilm (Ilmenau)",
                 "Description": "\"The first morning we were feeble and so merely took a quiet walk through the nearest pine wood, from whence we strolled into the meadows and seated ourselves close to a clear rushing stream - our old friend the Ilm, I suppose.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 10.8904018651904,
                 "Longitude": 50.680434403004966,
@@ -912,7 +912,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
+                "Location": "Gabelbach",
                 "Description": "\"This morning we set out to find the Gabelbach. It rained a little, but still our walk was very pleasant. From the Gabelbach we went on to Kickelhahn, where Goethe's queer little wooden house stands. We wrote our names near one of the windows. The view of hills from this point is very grand. We did exploits on our way home, not knowing the road, and were amused to find ourselves at last at the spot from which we had begun our uphill walk to the Gabelbach.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.902847657934549,
                 "Longitude": 50.673873544215496,
@@ -932,7 +932,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
+                "Location": "Kickelhahn",
                 "Description": "\"This morning we set out to find the Gabelbach. It rained a little, but still our walk was very pleasant. From the Gabelbach we went on to Kickelhahn, where Goethe's queer little wooden house stands. We wrote our names near one of the windows. The view of hills from this point is very grand. We did exploits on our way home, not knowing the road, and were amused to find ourselves at last at the spot from which we had begun our uphill walk to the Gabelbach.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.881106569106477,
                 "Longitude": 50.66583546530298,
@@ -952,7 +952,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
+                "Location": "Kickelhahn Hut",
                 "Description": "\"This morning we set out to find the Gabelbach. It rained a little, but still our walk was very pleasant. From the Gabelbach we went on to Kickelhahn, where Goethe's queer little wooden house stands. We wrote our names near one of the windows. The view of hills from this point is very grand. We did exploits on our way home, not knowing the road, and were amused to find ourselves at last at the spot from which we had begun our uphill walk to the Gabelbach.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.879067830934133,
                 "Longitude": 50.667863807457266,
@@ -972,7 +972,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
+                "Location": "Ilmenau",
                 "Description": "\u201cAfter so easily losing their way in the morning, they decided to return to  Ilmenau by the quickest route: straight downwards. It was a perilous descent, and  they slipped and stumbled, laughing, until they eventually reached level ground.  Their dinner was all the more enjoyable for this rough exercise, and by five o'clock they were restored enough to walk to Elgersburg. On leaving Ilmenau, they passed a large building with an inscription above its door welcoming locals and strangers  to enter.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 10.925450128620847,
                 "Longitude": 50.68443879505556,
@@ -992,8 +992,8 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
-                "Description": "\u201cUnbeknown to them,  they had chanced upon the Felsenkeller, the club-house of the local  Schktzengesellschaft (rifle club).\u201d - Gerlinde, Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
+                "Location": "Felsenkeller (Schutzengesellschaft \u2013 Rifle Club)",
+                "Description": "\u201cUnbeknown to them,  they had chanced upon the Felsenkeller, the club-house of the local Schktzengesellschaft (rifle club).\u201d - Gerlinde, Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 10.9327963396589,
                 "Longitude": 50.691606569936766,
                 "Type": "5",
@@ -1012,7 +1012,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-22",
-                "Location": "",
+                "Location": "Elgersberg",
                 "Description": "\"In the evening we turned out again and walked to Elgersberg.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.852908523701235,
                 "Longitude": 50.705804694367735,
@@ -1032,7 +1032,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-23",
-                "Location": "",
+                "Location": "Elgersberg",
                 "Description": "\"We went to Elgersberg and continued along the Chaussee till we came to Stutzerbach where we took a guide to Gabelbach. He took us up the hills through glorious pine and beech woods.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.852908523701235,
                 "Longitude": 50.705804694367735,
@@ -1052,7 +1052,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-23",
-                "Location": "",
+                "Location": "The Chaussee",
                 "Description": "\"We went to Elgersberg and continued along the Chaussee till we came to Stutzerbach where we took a guide to Gabelbach. He took us up the hills through glorious pine and beech woods.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.860847862385361,
                 "Longitude": 50.634053265369914,
@@ -1072,7 +1072,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-23",
-                "Location": "",
+                "Location": "Gabelbach",
                 "Description": "\"We went to Elgersberg and continued along the Chaussee till we came to Stutzerbach where we took a guide to Gabelbach. He took us up the hills through glorious pine and beech woods.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.902847657934549,
                 "Longitude": 50.673873544215496,
@@ -1092,7 +1092,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-24",
-                "Location": "",
+                "Location": "Ilmenau",
                 "Description": "\"We walked from Ilmenau to Arnstadt - a 4 hours' journey. The road is very fine and varied. Dined at the Goldene Henne, and had a boar's head splendidly decorated with green branches, a lemon in its mouth and a cross formed of carrot on its brow. We got the coupe of the Post Wagen and travelled comfortably to Neu Dietendorf, where we waited half an hour, for the train to Weimar. We reached home about half past 6 and enjoyed taking coffee snugly in our own lodgings once more. I read the Kestner letters at Ilmenau.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.914314592187385,
                 "Longitude": 50.91012643055192,
@@ -1112,7 +1112,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-24",
-                "Location": "",
+                "Location": "Arnstadt",
                 "Description": "\"We walked from Ilmenau to Arnstadt - a 4 hours' journey. The road is very fine and varied. Dined at the Goldene Henne, and had a boar's head splendidly decorated with green branches, a lemon in its mouth and a cross formed of carrot on its brow. We got the coupe of the Post Wagen and travelled comfortably to Neu Dietendorf, where we waited half an hour, for the train to Weimar. We reached home about half past 6 and enjoyed taking coffee snugly in our own lodgings once more. I read the Kestner letters at Ilmenau.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.947723862597154,
                 "Longitude": 50.83482657443662,
@@ -1132,7 +1132,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-24",
-                "Location": "",
+                "Location": "Goldene Henne",
                 "Description": "\"Dined at the Goldene Henne, and had a boar's head splendidly decorated with green branches, a lemon in its mouth and a cross formed of carrot on its brow.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.9481079,
                 "Longitude": 50.83149500942241,
@@ -1152,7 +1152,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-24",
-                "Location": "",
+                "Location": "Neu Dietendorf",
                 "Description": "\"We got the coupe of the Post Wagen and travelled comfortably to Neu Dietendorf, where we waited half an hour, for the train to Weimar. We reached home about half past 6 and enjoyed taking coffee snugly in our own lodgings once more. I read the Kestner letters at Ilmenau.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 10.914314592187385,
                 "Longitude": 50.91012643055192,
@@ -1172,7 +1172,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-24",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"We reached home about half past 6 and enjoyed taking coffee snugly in our own lodgings once more. I read the Kestner letters at Ilmenau.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -1192,7 +1192,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-25",
-                "Location": "",
+                "Location": "Bercka",
                 "Description": "\"One of our visits to Bercka is individualized in my memory by our having read Goethe's 'Vier Jahreszeiten', and having seen a lovely rain-bow springing from the ploughed ground. This was the day after our return from Ilmenau. We set off in a high wind which was very perturbing to G. It softened a little as we went on, but was still violent enough when we were in sight of Bercka, to blow G's hat off. He ran in pursuit of it and so entirely lost the sense of annoyance in that of the comic, that he began to run with squared legs and arms, making a perfect T\u00f6pffer sketch of himself. When we set out home a shower came on to which we were indebted for the said rainbow. We had neither of us before seen a rainbow thus springing from the ground, and we eagerly watched it till it faded away.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
@@ -1212,7 +1212,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-25",
-                "Location": "",
+                "Location": "Road near Thuringian Forest from Bercka to Weimar",
                 "Description": "\"The walk to Bercka and back was a favorite expedition with us and a few Weimar friends, for the road thither is a pleasant one, leading at first through open cultivated fields, dotted here and there with villages, and then through wooded hills\u2014the outskirts of the Thuringian Forest. We used not to despise the fine plums which hung in tempting abundance by the road-side; but we afterward found that we had been deceived in supposing ourselves free to pluck them, as if it were the golden age, and that we were liable to a penalty of ten groschen for our depredations.\" - George Eliot, Three Months in Weimar",
                 "Latitude": 10.833162451221062,
                 "Longitude": 50.66781591610213,
@@ -1232,7 +1232,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-26",
-                "Location": "",
+                "Location": "The Sch\u00f6ll's House",
                 "Description": "\"In the afternoon we called at Herr Sch\u00f6ll's, had some pleasant chat with him and his wife, and then walked in the Park, Sch\u00f6ll accompanying us.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.327631386892966,
                 "Longitude": 50.978786089128526,
@@ -1252,7 +1252,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-26",
-                "Location": "",
+                "Location": "Park an der Ilm (Goethepark)",
                 "Description": "\"In the afternoon we called at Herr Sch\u00f6ll's, had some pleasant chat with him and his wife, and then walked in the Park, Scholl accompanying us.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
@@ -1272,7 +1272,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-27",
-                "Location": "",
+                "Location": "Open Fields",
                 "Description": "\"Mr Williams, an agreeable, unaffected young man, took coffee with us. In the evening we set out to go to Belvedere, but turned off into the open fields and found out a new walk. The sky was grand.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.33269427562413,
                 "Longitude": 50.95441534638926,
@@ -1292,7 +1292,7 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-28",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"The morning was too beautiful to be spent in doors, so we set out on the same walk that we had yesterday, and got atlastto Belvedere, where we went to look at the landscapes in the glass globes.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
