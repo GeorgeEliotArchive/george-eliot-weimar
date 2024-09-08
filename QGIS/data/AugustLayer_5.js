@@ -172,7 +172,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
+                "Location": "Park an der Ilm (Goethepark)",
                 "Description": "\"We soon had our impression modified when in the evening we found our way to the Belvedere Chauss\u00e9e, that splendid avenue of chestnut trees - when we saw the Schloss and discovered the labyrinthine beauties of the Park; indeed every day opened to us fresh charms in this quiet little valley and its environs.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
@@ -192,8 +192,8 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
-                "Description": "\" In the evening we walked to Ober Weimarto see \"Der Posse als Medicin\" at the \"Tivoli Theater\", a little wooden structure in a garden\" - George Eliot, Personal Diary (1854)",
+                "Location": "Ober Weimar",
+                "Description": "\" In the evening we walked to Ober Weimar to see \"Der Posse als Medicin\" at the \"Tivoli Theater\", a little wooden structure in a garden\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.338056702108101,
                 "Longitude": 50.96683914820426,
                 "Type": "8",
@@ -212,8 +212,8 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-03",
-                "Location": "",
-                "Description": "\" In the evening we walked to Ober Weimarto see \"Der Posse als Medicin\" at the \"Tivoli Theater\", a little wooden structure in a garden\" - George Eliot, Personal Diary (1854)",
+                "Location": "Tivoli Theater",
+                "Description": "\" In the evening we walked to Ober Weimar to see \"Der Posse als Medicin\" at the \"Tivoli Theater\", a little wooden structure in a garden\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.341047307363018,
                 "Longitude": 50.96550185331219,
                 "Type": "9",
@@ -232,7 +232,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-04",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"We took possession of our lodgings this morning and had enough to do before dinner in arranging our books etc. We pay 9 thalers per month for our lodgings.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -272,7 +272,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-04",
-                "Location": "",
+                "Location": "Erholung",
                 "Description": "\"In the evening we happened, in our walk, to find the Erholung, where a concert was going forward. The walks in the garden are beautifully arched over with treesfirs chiefly which with their falling leaves make a matting that deadens the sound of one's footsteps - a great charm to me. We sat down among the company, made up almost entirely of women, most of them good-looking well dressed bourgeoises, chatting with an air of real friendliness over their knitting etc. When we came home I read some of L.'s M.S. aloud.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.325945050459216,
                 "Longitude": 50.98143001712389,
@@ -292,7 +292,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-04",
-                "Location": "",
+                "Location": "Kaufstra\u00dfe",
                 "Description": "\"In the evening we happened, in our walk, to find the Erholung, where a concert was going forward. The walks in the garden are beautifully arched over with treesfirs chiefly which with their falling leaves make a matting that deadens the sound of one's footsteps - a great charm to me. We sat down among the company, made up almost entirely of women, most of them good-looking well dressed bourgeoises, chatting with an air of real friendliness over their knitting etc. When we came home I read some of L.'s M.S. aloud.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
@@ -312,7 +312,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-05",
-                "Location": "",
+                "Location": "Hoffmannsche Hofbuchhandlung",
                 "Description": "\"We read, wrote and walked a little before dinner. After, I read Sainte Beuve aloud. A letter from Mr. Chapman, proposing to me to write an article on Victor Cousin's Mde. de Sable. We ordered the book at the \"Hof-Buchhandlung\", a modest shop in the Markt Platz. In the evening we walked to Tiefurt, and were delighted with the grounds there.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.330387917790912,
                 "Longitude": 50.979291266913684,
@@ -332,7 +332,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-05",
-                "Location": "",
+                "Location": "Webicht",
                 "Description": "\"We read, wrote and walked a little before dinner. After, I read Sainte Beuve aloud. A letter from Mr. Chapman, proposing to me to write an article on Victor Cousin's Mde. de Sable. We ordered the book at the \"Hof-Buchhandlung\", a modest shop in the Markt Platz. In the evening we walked to Tiefurt, and were delighted with the grounds there.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
@@ -352,7 +352,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-05",
-                "Location": "",
+                "Location": "Tiefurt",
                 "Description": "\"We read, wrote and walked a little before dinner. After, I read Sainte Beuve aloud. A letter from Mr. Chapman, proposing to me to write an article on Victor Cousin's Mde. de Sable. We ordered the book at the \"Hof-Buchhandlung\", a modest shop in the Markt Platz. In the evening we walked to Tiefurt, and were delighted with the grounds there.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
@@ -372,7 +372,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-05",
-                "Location": "",
+                "Location": "Tiefurt Park",
                 "Description": "\"Tiefurt was a favourite resort of ours, for the walk to it is a very pleasant one and the Tiefurt park is a little paradise. The Ilm is seen here to the best advantage; it is clearer than at Weimar, and winds about gracefully among fine trees.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.364988951845044,
                 "Longitude": 50.99481146619207,
@@ -392,7 +392,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
+                "Location": "Goethe's House",
                 "Description": "\"We wrote our letters and then walked out. Saw the outside of Goethe's house in the Frauen Place.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.32870401487555,
                 "Longitude": 50.97757379413026,
@@ -412,7 +412,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
+                "Location": "Russischer Hof",
                 "Description": "\"Dined for the first time at the Russischer Hof. Linenless, German. Our evening walk was to Belvedere, an enchanting place. A rumbling awkward carriage pronounced to be 'ein hscher Wagen'\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
@@ -432,7 +432,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
+                "Location": "Belvedere Allee",
                 "Description": "\"The Belvedere All\u00e9e turned out to be some three kilometres long, leading to Schloss  Belvedere, one of the ducal summer residences.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.335679417727908,
                 "Longitude": 50.943125440238134,
@@ -452,7 +452,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"Our evening walk was to Belvedere, an enchanting place. A rumbling awkward carriage pronounced to be 'ein hscher Wagen'\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
@@ -472,7 +472,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
+                "Location": "Belvedere Park",
                 "Description": "\"We soon had our impression modified when in the evening we found our way to the Belvedere Chauss\u00e9e, that splendid avenue of chestnut trees -when we saw the Schloss and discovered the labyrinthine beauties of the Park; indeed every day opened to us fresh charms in this quiet little valley and its environs.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.349801064488693,
                 "Longitude": 50.947052839895825,
@@ -492,8 +492,8 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-06",
-                "Location": "",
-                "Description": "\"One of [Belvedere's] many charming details was the  Heckentheater, an open-air theatre constructed from hedges trimmed into walls and side scenes.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
+                "Location": "Heckentheater (Natur-Theatre)",
+                "Description": "\"One of [Belvedere's] many charming details was the Heckentheater, an open-air theatre constructed from hedges trimmed into walls and side scenes.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.347039517504848,
                 "Longitude": 50.94778235107361,
                 "Type": "6",
@@ -512,7 +512,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "Park an der Ilm (Goethepark)",
                 "Description": "\"Rainy. A pleasant walk in the Pare, notwithstanding. Read M.S. in the evening.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
@@ -532,7 +532,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "Snake Column",
                 "Description": "\"It is along this walk that you come upon a truncated column with a serpent twined round it, devouring cakes, placed on the column as offerings - a bit of a rude sculpture in stone. The inscription - Genio loci - enlightens the learned as to the significance of this symbol, but the people of Weimar, unedified by classical allusions, have explained the sculpture by a story which is an excellent example of a modern myth.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.333814923803697,
                 "Longitude": 50.97507654295814,
@@ -552,7 +552,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "Borkenhaus",
                 "Description": "\"A little farther on is the Borkenhaus, where Carl August used to play the hermit for days together, and from which he used to telegraph to Goethe in his Gartenhaus.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.333754435581916,
                 "Longitude": 50.97615103348906,
@@ -572,7 +572,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "R\u00f6mische Haus",
                 "Description": "\"A little further along, 'placed on the edge of the cliff', stands the R\u00f6mische Haus, 'another retreat for ducal dignity to undbend and philophize in'.\" - Gerlinde Roder-Bolton, George Eliot's Weimar (1994)",
                 "Latitude": 11.33544208132797,
                 "Longitude": 50.97123515477832,
@@ -592,7 +592,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "The Stern",
                 "Description": "\"Sometimes we took our shady walk in the Stern, the oldest part of the park plantations, on the opposite side of the river, lingering on our way to watch the crystal brook which hurries on, like a foolish young maiden, to wed itself with the muddy Ilm.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.334512515812536,
                 "Longitude": 50.978497773361205,
@@ -612,7 +612,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-07",
-                "Location": "",
+                "Location": "Stein des guten Gl\u00fccks",
                 "Description": "\"There is a small, but pretty garden at the side of the house, where Goethe studied the development of plants and made many of his scientific experiments. At the end of of the garden, along the path paved with pebbles and designed by Goethe, stands the sculpture Kubus mit Kugel. From the Gartenhaus there are long views across the Ilm valley, which Goethe recaptured in many drawings and water colours.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
                 "Latitude": 11.336445168244508,
                 "Longitude": 50.976873237422204,
@@ -652,7 +652,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-08",
-                "Location": "",
+                "Location": "Tempelherrenhaus",
                 "Description": "\"Of classical idealising in portrait sculpture, Weimar has already a sufficient exemplar ad evitandum in the colossal statue of Goethe, executed after Bettina's design, which the readers of the 'Correspondence with a Child' may see engraved as a frontispiece to the second volume. This statue is locked up in an odd structure, standing in the park, and looking like a compromise between a church and a summer-house (Weimar does not shine in its buildings!) How little real knowledge of Goethe must the mind have that could wish to see him represented as a naked Apollo, with a Psyche at his knee! The execution is as feeble as the sentiment is false; the Apollo-Goethe is a caricature, and the Psyche is simply vulgar. The statue was executed under Bettina's encouragement, in the hope that it would be bought by the King of Prussia; but a breach having taken place between her and her royal friend, a purchaser was sought in the Grand Duke of Weimar, who, after transporting it at enormous expense from Italy, wisely shut it up where it is seen only by the curious.\" - George Eliot, Three Months in Weimar (1855)",
                 "Latitude": 11.332216535581905,
                 "Longitude": 50.97582793345821,
@@ -672,7 +672,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-09",
-                "Location": "",
+                "Location": "Tivoli Theater",
                 "Description": "\"We went to the little Tivoli Theatre and saw a \"star\" in Kotzebue's play - Der Arme Poet and Numero 726 a farce known in England as 'The Lottery Ticket.'\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.341047307363018,
                 "Longitude": 50.96550185331219,
@@ -692,7 +692,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-10",
-                "Location": "",
+                "Location": "Kegelbr\u00fccke",
                 "Description": "\"Most likely, Lewes hired a carriage,  which took them through the town, over the Kegelbrucke, and up Jenaische  Chauss\u00e9e to the Altenburg.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.33309005359065,
                 "Longitude": 50.98189653304735,
@@ -712,7 +712,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-10",
-                "Location": "",
+                "Location": "Jenaische Chaussee",
                 "Description": "\"Most likely, Lewes hired a carriage,  which took them through the town, over the Kegelbrucke, and up Jenaische  Chauss\u00e9e to the Altenburg.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.566651682903407,
                 "Longitude": 50.878586975769544,
@@ -752,7 +752,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-11",
-                "Location": "",
+                "Location": "F\u00fcrstengruft",
                 "Description": "\"Schiller had died at the age of 45 as a direct result of poverty and overwork and had been given a pauper's burial. At the time of George Eliot's visit, his coffin, together with Goethe's, already had a place of honour in the Furstengruft, the family crypt of the Dukes of Weimar. George Eliot records the grisly details connected with the transfer of Schiller's remains to their final resting place.\" - Gerlinde Roder-Bolton, Where the Stately Jupiter Walked (2000)",
                 "Latitude": 11.32565003293711,
                 "Longitude": 50.972650778585695,
@@ -772,7 +772,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-11",
-                "Location": "",
+                "Location": "Bibliothek",
                 "Description": "\"We went to the Bibliothek with Hofrath Schl, and looked at the portraits and busts. The most remarkable among them is one in bronze of Gluck. The rugged power of the face is given with wonderful reality, as far as possible from the feeble idealization one generally sees in busts. There is a bust of Goethe, taken during his stay in Italy, which represents him as an Apollo. It is exquisitely beautiful but I cannot believe the brow to be accurate. Lessing's head and face are small, but of a fine, delicate type. Jacobi is rather feeble looking. We walked about with Sch\u00f6ll till it began to rain and then sought shelter with him under a door place. He is a genial unaffected man, full of accurate knowledge on all literary and philosophical subjects, and there is no German heaviness either in his appearance or his mind. In the morning L. called on Frau von Goethe.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.332206155819685,
                 "Longitude": 50.978501354124376,
@@ -792,7 +792,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-12",
-                "Location": "",
+                "Location": "Belvedere Schloss",
                 "Description": "\"The morning being bright, we went to spend our day at Belvedere, the Grand Duke's Summer residence. It stands on the most considerable elevation in the immediate neighbourhood of Weimar, and is surrounded with lovely gardens which one enjoys all the more because they are free to all the good people of the town. The road to Belvedere is remarkable. It is one long avenue of stately trees. Just as we were going to leave, afters or 6 hours of quiet happiness, we met Sch\u00f6ll and turned back with him. He was presently joined by his wife whom we saw for the first time.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
@@ -832,12 +832,12 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -992,7 +992,7 @@ var json_AugustLayer_5 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-08-13",
-                "Location": "",
+                "Location": "Ober Weimar",
                 "Description": "\"Another glorious morning! But L.'s head is bad, and that makes us melancholy. We called on the Princess and strolled till dinner. Finished Cousin's book on Madame de Sable. In the evening we walked to Ober Weimar and satisfied ourselves that the village was very ugly.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.338056702108101,
                 "Longitude": 50.96683914820426,
