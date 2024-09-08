@@ -352,12 +352,12 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-10",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
@@ -752,12 +752,12 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-19",
-                "Location": "",
+                "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
                 "Latitude": 11.333389102086395,
                 "Longitude": 50.980390969995135,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg/1599px-Rohlfs_-_Sternbr\u00fccke_in_Weimar.jpeg?20100710165933",
                 "Format": "Image"
             },
             "geometry": {
