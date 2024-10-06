@@ -1,6 +1,6 @@
 # George Eliot in Weimar
 
-Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, HTML, JavaScript, and Python, is designed to be “software-free” upon its release. This project connects to the Archive’s Omeka server and implements a Python script that runs once a day to make relevant updates to items on the map if their metadata has changed within the “GE in Weimar” Omeka metadata collection.
+Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, HTML, JavaScript, and Python, is designed to be “software-free” upon its release. This project connects to the Archive’s Omeka server and implements a Python script that runs once a day to make relevant updates to items on the map if their metadata has changed within the “GE in Weimar” Omeka metadata collection. Additionally, the **George Eliot in Weimar Geospatial Narrative**, created with GeoStory, allows a story-like experience for George Eliot Archive visitors.
 
 ## Overview
 To update any aspect of a location—whether it be coordinates, images, or anything else—Archive editors can simply update the data for an entry in Omeka. This guide provides instructions on managing entries in Omeka, including adding or changing items, and explains how to manually update the QGIS map in GitHub if automatic updates fail.
