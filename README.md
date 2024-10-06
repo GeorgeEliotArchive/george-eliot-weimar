@@ -77,7 +77,5 @@ If automatic updates fail due to network or software issues, manual updates can 
     git push origin main
     ```
 
-Congratulations! You have successfully run a manual update of the project.
-
 ## Contributing
 Only members of the George Eliot Archive Team are allowed to edit this project. If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request in the [project repository](https://github.com/GeorgeEliotArchive/george-eliot-weimar).
