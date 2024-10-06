@@ -27,7 +27,7 @@ To update any aspect of a location—whether it be coordinates, images, or anyth
    - To edit items, find the item you want to modify and click the link that says **Edit** under that item.
    - To add a new item, click **Add an Item**.
 
-5. Use the **Dublin Core** tab to add or edit the following fields:
+5. Use the **Dublin Core** tab to add or edit the following fields (use entries that already exist in Omeka as a guide for formatting these fields):
    - **Title**: Descriptive title detailing the context behind a stop George Eliot made.
    - **Subject**: The name of the location Eliot visited.
    - **Description**: Journal entry or literary evidence describing Eliot’s visit.
