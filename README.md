@@ -43,7 +43,7 @@ To update any aspect of a location—whether it be coordinates, images, or anyth
    - **Coverage**: Geolocation of the location Eliot visited.
 
 6. After updating the **Dublin Core** items:
-   - Go to **Item Type Metadata** and enter the name of the resource into **Original Format**.
+   - Go to **Item Type Metadata** and enter the name of the resource into **Original Format** (this name should be the same as the name of the file in the project Box folder).
    - Upload the media resource under **Files** and click **Save Changes**.
 
 **Important**: If you change a media item, make sure to update `Creator`, `Source`, `Rights`, `Format`, and `Identifier`. If you add a new item to a given date, adjust **Type** values accordingly.
