@@ -17,7 +17,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -37,7 +37,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -57,7 +57,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -77,7 +77,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -97,7 +97,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -117,7 +117,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.327499725928739,
                 "Longitude": 50.978023563318736,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Arnstein%2C_Marktstra\u00dfe_62%2C_60%2C_001.jpg/1600px-Arnstein%2C_Marktstra\u00dfe_62%2C_60%2C_001.jpg?20140125025006",
                 "Format": "Image"
             },
             "geometry": {
@@ -137,7 +137,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.328525752750613,
                 "Longitude": 50.97753347346109,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Goethe_House_in_1844.jpg/954px-Goethe_House_in_1844.jpg?20220829083531",
                 "Format": "Image"
             },
             "geometry": {
@@ -157,7 +157,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-TffrtaYcoRQ/XKtDfS1gsuI/AAAAAAAAA7E/HhwetB2ZFa8G5x0M_YkPDUGvn-f5dh_fgCLcBGAs/s320/Berka.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -177,7 +177,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 10.833162451221062,
                 "Longitude": 50.66781591610213,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Thuringian_forest_near_saalfeld.jpg/1600px-Thuringian_forest_near_saalfeld.jpg?20160502114307",
                 "Format": "Image"
             },
             "geometry": {
@@ -197,7 +197,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -217,7 +217,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -237,7 +237,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.332206155819685,
                 "Longitude": 50.978501354124376,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Weimar%2C_Herzogin_Anna_Amalia_Bibliothek%2C_2019-09_CN-05.jpg/1600px-Weimar%2C_Herzogin_Anna_Amalia_Bibliothek%2C_2019-09_CN-05.jpg?20190924151735",
                 "Format": "Image"
             },
             "geometry": {
@@ -257,7 +257,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -277,7 +277,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -297,7 +297,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.327631386892966,
                 "Longitude": 50.978786089128526,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/1921_-_Weimar_%288646874873%29.jpg/1600px-1921_-_Weimar_%288646874873%29.jpg?20150424061554",
                 "Format": "Image"
             },
             "geometry": {
@@ -317,7 +317,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -337,7 +337,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -357,7 +357,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -377,7 +377,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -397,7 +397,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -417,7 +417,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
                 "Format": "Image"
             },
             "geometry": {
@@ -437,7 +437,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -497,7 +497,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -557,7 +557,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -577,7 +577,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -597,7 +597,7 @@ var json_OctoberLayer_7 = {
                 "Latitude": 11.328525752750613,
                 "Longitude": 50.97753347346109,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Goethe_House_in_1844.jpg/954px-Goethe_House_in_1844.jpg?20220829083531",
                 "Format": "Image"
             },
             "geometry": {

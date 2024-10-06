@@ -17,7 +17,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-TffrtaYcoRQ/XKtDfS1gsuI/AAAAAAAAA7E/HhwetB2ZFa8G5x0M_YkPDUGvn-f5dh_fgCLcBGAs/s320/Berka.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -37,7 +37,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-TffrtaYcoRQ/XKtDfS1gsuI/AAAAAAAAA7E/HhwetB2ZFa8G5x0M_YkPDUGvn-f5dh_fgCLcBGAs/s320/Berka.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -57,7 +57,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.291218730683047,
                 "Longitude": 50.90408625330012,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bad_Berka_Parkstra%C3%9Fe_16_Bade-_und_Gesellschaftshaus_%28Coudrayhaus%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -77,7 +77,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.288402118875274,
                 "Longitude": 50.8984869497564,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Bad_Berka_Kurpark_und_Kuranlagen_mit_einbezogenen_ObjektenPark_mit_Kurmittelhaus.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -92,12 +92,12 @@ var json_SeptemberLayer_6 = {
             "type": "Feature",
             "properties": {
                 "Date": "1854-09-02",
-                "Location": "Al Fresco",
+                "Location": "Bad Berka Meadow",
                 "Description": "\"We dined al fresco in the presence of a pretty little meadow scene with holy oaks in the foreground. In returning, the evening was enchanting.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 11.26711853914027,
                 "Longitude": 50.904676591311635,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ilmtal_Bad-Berka.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -117,7 +117,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.833162451221062,
                 "Longitude": 50.66781591610213,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Thuringian_forest_near_saalfeld.jpg/1600px-Thuringian_forest_near_saalfeld.jpg?20160502114307",
                 "Format": "Image"
             },
             "geometry": {
@@ -137,7 +137,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.303102349887093,
                 "Longitude": 50.95222524052531,
                 "Type": "7",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/5/57/Rohlfs_-_Weg_nach_Gelmeroda%2C_1893.jpeg",
                 "Format": "Image"
             },
             "geometry": {
@@ -157,7 +157,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "8",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -177,7 +177,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -197,7 +197,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -217,7 +217,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Weimar%2C_Schloss_Tiefurt._%28168B%29_%28NBY_419065%29.jpg?20180304150412",
                 "Format": "Image"
             },
             "geometry": {
@@ -237,7 +237,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.364988951845044,
                 "Longitude": 50.99481146619207,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Schlosspark_Tiefurt_2023_040.jpg/1600px-Schlosspark_Tiefurt_2023_040.jpg?20231011130456",
                 "Format": "Image"
             },
             "geometry": {
@@ -257,7 +257,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Weimar%2C_Schloss_Tiefurt._%28168B%29_%28NBY_419065%29.jpg?20180304150412",
                 "Format": "Image"
             },
             "geometry": {
@@ -277,7 +277,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -297,7 +297,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -317,7 +317,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.314674386881785,
                 "Longitude": 50.96373384741428,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Old_snow_in_agricultural_landscape%2C_North_of_Possendorf%2C_Thuringia%2C_Germany%2C_March_24th_2018_15.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -377,7 +377,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "5",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -397,7 +397,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
                 "Format": "Image"
             },
             "geometry": {
@@ -417,7 +417,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.561355941867385,
                 "Longitude": 50.93714558465553,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/View_of_Jena.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -437,7 +437,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.590436995800555,
                 "Longitude": 50.929329751034764,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/View_of_Jena.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -457,7 +457,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -477,7 +477,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -497,7 +497,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.59684731779097,
                 "Longitude": 50.92857146037792,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/St\u00fctzerbach%2C_Th\u00fcringen_-_Hotel_Zur_Tanne_%28Zeno_Ansichtskarten%29.jpg/1600px-St\u00fctzerbach%2C_Th\u00fcringen_-_Hotel_Zur_Tanne_%28Zeno_Ansichtskarten%29.jpg?20171220060506",
                 "Format": "Image"
             },
             "geometry": {
@@ -517,7 +517,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.608888899999943,
                 "Longitude": 50.92442356140586,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/21244-Jena-1919-Hausberg_mit_Fuchsturm-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -537,7 +537,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.567754542547654,
                 "Longitude": 50.91612478293124,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kirche_Lichtenhain_Jena_Frontansicht_2014.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -557,7 +557,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.281323627782943,
                 "Longitude": 50.9011411421813,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -577,7 +577,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
                 "Format": "Image"
             },
             "geometry": {
@@ -597,7 +597,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.452207694443548,
                 "Longitude": 50.967483626469964,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/1/14/The_M%C3%BChlental_near_Jena_%28SM_1462z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -617,7 +617,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "7",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -637,7 +637,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -657,7 +657,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.313143274872322,
                 "Longitude": 50.970308496694656,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Weimar%2C_Germany_-_panoramio_%28166%29.jpg/1599px-Weimar%2C_Germany_-_panoramio_%28166%29.jpg?20170512234516",
                 "Format": "Image"
             },
             "geometry": {
@@ -677,7 +677,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -697,7 +697,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.324744184463851,
                 "Longitude": 50.97966389723868,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Weimar_Hoftheater_1899_cropped.jpg/1600px-Weimar_Hoftheater_1899_cropped.jpg?20221008081102",
                 "Format": "Image"
             },
             "geometry": {
@@ -777,7 +777,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -794,17 +794,17 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-20",
                 "Location": "Neu Dietendorf",
                 "Description": "\"We set off for Ilmenau by railway. I read Liszt's account of\"Der Fliegende Hollander\" by the way. When we reached Neu Dietendorf, we had to get into the Post Wagen which turned out to be a disagreeable omnibus-like vehicle.\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 10.91036343214711,
-                "Longitude": 50.91174772122808,
+                "Latitude": 10.914314592187385,
+                "Longitude": 50.91012643055192,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Neudietendorf_Zinzendorfhaus_%2883%29.jpg/1599px-Neudietendorf_Zinzendorfhaus_%2883%29.jpg?20160821083109",
                 "Format": "Image"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    10.91036343214711,
-                    50.91174772122808
+                    10.914314592187385,
+                    50.91012643055192
                 ]
             }
         },
@@ -817,7 +817,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.947723862597154,
                 "Longitude": 50.83482657443662,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Erwin_Spindler_Ansichtskarte_Arnstadt-Q1.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -837,7 +837,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.925450128620847,
                 "Longitude": 50.68443879505556,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ilmenau_with_Kikelhahn_Thuringia_Germany.jpg?20120703132953",
                 "Format": "Image"
             },
             "geometry": {
@@ -857,7 +857,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.912532610822034,
                 "Longitude": 50.68381340303546,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/97/L%C3%B6we_Ilmenau.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -877,7 +877,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.892728200694892,
                 "Longitude": 50.684406730334786,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ilmenau_Kickelhahn_von_NO.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -897,7 +897,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.8904018651904,
                 "Longitude": 50.680434403004966,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ilm_bei_Langewiesen.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -917,7 +917,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.902847657934549,
                 "Longitude": 50.673873544215496,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gabelbach_Kurpark.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -937,7 +937,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.881106569106477,
                 "Longitude": 50.66583546530298,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kickelhahnturm_Mai_2021.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -957,7 +957,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.879067830934133,
                 "Longitude": 50.667863807457266,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/1/16/Die_Gartenlaube_%281872%29_b_656.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -977,7 +977,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.925450128620847,
                 "Longitude": 50.68443879505556,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ilmenau_with_Kikelhahn_Thuringia_Germany.jpg?20120703132953",
                 "Format": "Image"
             },
             "geometry": {
@@ -997,7 +997,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.9327963396589,
                 "Longitude": 50.691606569936766,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://pictures.abebooks.com/inventory/md/md30290545818.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1017,7 +1017,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.852908523701235,
                 "Longitude": 50.705804694367735,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/426_Schloss_Elgersburg.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1037,7 +1037,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.852908523701235,
                 "Longitude": 50.705804694367735,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/426_Schloss_Elgersburg.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1057,7 +1057,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.860847862385361,
                 "Longitude": 50.634053265369914,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Christuskirche_St%C3%BCtzerbach_3.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1077,7 +1077,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.902847657934549,
                 "Longitude": 50.673873544215496,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gabelbach_Kurpark.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -1094,17 +1094,17 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-24",
                 "Location": "Ilmenau",
                 "Description": "\"We walked from Ilmenau to Arnstadt - a 4 hours' journey. The road is very fine and varied. Dined at the Goldene Henne, and had a boar's head splendidly decorated with green branches, a lemon in its mouth and a cross formed of carrot on its brow. We got the coupe of the Post Wagen and travelled comfortably to Neu Dietendorf, where we waited half an hour, for the train to Weimar. We reached home about half past 6 and enjoyed taking coffee snugly in our own lodgings once more. I read the Kestner letters at Ilmenau.\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 10.914314592187385,
-                "Longitude": 50.91012643055192,
+                "Latitude": 10.925450128620847,
+                "Longitude": 50.68443879505556,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ilmenau_with_Kikelhahn_Thuringia_Germany.jpg?20120703132953",
                 "Format": "Image"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    10.914314592187385,
-                    50.91012643055192
+                    10.925450128620847,
+                    50.68443879505556
                 ]
             }
         },
@@ -1117,7 +1117,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.947723862597154,
                 "Longitude": 50.83482657443662,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Erwin_Spindler_Ansichtskarte_Arnstadt-Q1.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1137,7 +1137,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.9481079,
                 "Longitude": 50.83149500942241,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/7/78/Goldene_Henne_Arnstadt.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -1157,7 +1157,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.914314592187385,
                 "Longitude": 50.91012643055192,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Neudietendorf_Zinzendorfhaus_%2883%29.jpg/1599px-Neudietendorf_Zinzendorfhaus_%2883%29.jpg?20160821083109",
                 "Format": "Image"
             },
             "geometry": {
@@ -1177,7 +1177,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -1197,7 +1197,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.288380741811846,
                 "Longitude": 50.898463833445796,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-TffrtaYcoRQ/XKtDfS1gsuI/AAAAAAAAA7E/HhwetB2ZFa8G5x0M_YkPDUGvn-f5dh_fgCLcBGAs/s320/Berka.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1217,7 +1217,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 10.833162451221062,
                 "Longitude": 50.66781591610213,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Thuringian_forest_near_saalfeld.jpg/1600px-Thuringian_forest_near_saalfeld.jpg?20160502114307",
                 "Format": "Image"
             },
             "geometry": {
@@ -1237,7 +1237,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.327631386892966,
                 "Longitude": 50.978786089128526,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/1921_-_Weimar_%288646874873%29.jpg/1600px-1921_-_Weimar_%288646874873%29.jpg?20150424061554",
                 "Format": "Image"
             },
             "geometry": {
@@ -1257,7 +1257,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oberer_Eingang_in_den_herzoglichen_Park_zu_Weimar_%28SM_6162z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -1277,7 +1277,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.33269427562413,
                 "Longitude": 50.95441534638926,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/032_Blick_von_den_Helfensteinen_auf_Ahnatal%2C_Ortsteile_Weimar_Kammerberg_und_Heckershausen.jpg/1600px-032_Blick_von_den_Helfensteinen_auf_Ahnatal%2C_Ortsteile_Weimar_Kammerberg_und_Heckershausen.jpg?20230916110643",
                 "Format": "Image"
             },
             "geometry": {
@@ -1297,7 +1297,7 @@ var json_SeptemberLayer_6 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
