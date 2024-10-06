@@ -23,7 +23,8 @@ To update any aspect of a location—whether it be coordinates, images, or anyth
 2. Use the naming convention followed by existing items.
 3. Log in to [georgeeliotarchive.org/admin](https://georgeeliotarchive.org/admin). Contact Dr. Rilett if you do not have an account.
 4. Navigate to **Collections** > **George Eliot’s Weimar 1854**.
-   - To edit individual items, click the link under **Total Number of Items**.
+   - To view individual items, click the link under **Total Number of Items**.
+   - To edit items, find the item you want to modify and click the link that says **Edit** under that item.
    - To add a new item, click **Add an Item**.
 
 5. Use the **Dublin Core** tab to add or edit the following fields:
