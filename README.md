@@ -1,4 +1,4 @@
-# George Eliot in Weimar – QGIS Metadata Guide
+# George Eliot in Weimar
 
 Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, HTML, JavaScript, and Python, is designed to be “software-free” upon its release. This project connects to the Archive’s Omeka server and implements a Python script that runs once a day to make relevant updates to items on the map if their metadata has changed within the “GE in Weimar” Omeka metadata collection.
 
@@ -45,6 +45,8 @@ To update any aspect of a location—whether it be coordinates, images, or anyth
 6. After updating the **Dublin Core** items:
    - Go to **Item Type Metadata** and enter the name of the resource into **Original Format** (this name should be the same as the name of the file in the project Box folder).
    - Upload the media resource under **Files** and click **Save Changes**.
+
+7. Make sure that all changes made are reflected manually in the GeoStory project as well. To make changes, simply login to the GeoStory project and manually make updates, implementing any modifications you made in Omeka.
 
 **Important**: If you change a media item, make sure to update `Creator`, `Source`, `Rights`, `Format`, and `Identifier`. If you add a new item to a given date, adjust **Type** values accordingly.
 
