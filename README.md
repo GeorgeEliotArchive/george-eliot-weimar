@@ -4,6 +4,7 @@ Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, 
 
 ## Overview
 To update any aspect of a location—whether it be coordinates, images, or anything else—Archive editors can simply update the data for an entry in Omeka. This guide provides instructions on managing entries in Omeka, including adding or changing items, and explains how to manually update the QGIS map in GitHub if automatic updates fail.
+
 *Note: a more detailed guide with images can be found in this project's official box folder. Please email Dr. Rilett for access.*
 
 ## How to Update an Item in Omeka
