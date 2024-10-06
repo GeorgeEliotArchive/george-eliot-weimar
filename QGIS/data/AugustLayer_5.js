@@ -97,7 +97,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.3293633852848,
                 "Longitude": 50.9810525892907,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Weimar-1840-Herderplatz-Oeder.jpg/1600px-Weimar-1840-Herderplatz-Oeder.jpg?20070515171449",
                 "Format": "Image"
             },
             "geometry": {
@@ -117,7 +117,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.32975498780098,
                 "Longitude": 50.979320838159104,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Weimar-1850-Rathaus.jpg/1600px-Weimar-1850-Rathaus.jpg?20070515172046",
                 "Format": "Image"
             },
             "geometry": {
@@ -137,7 +137,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -157,7 +157,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.33470418152765,
                 "Longitude": 50.96981474109462,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Potsdam_Schloss_Belvedere.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -177,7 +177,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
                 "Type": "7",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oberer_Eingang_in_den_herzoglichen_Park_zu_Weimar_%28SM_6162z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -197,7 +197,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.338056702108101,
                 "Longitude": 50.96683914820426,
                 "Type": "8",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Blick_auf_Oberweimar_1.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -217,7 +217,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.341047307363018,
                 "Longitude": 50.96550185331219,
                 "Type": "9",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Blick_auf_Oberweimar_1.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -237,7 +237,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -277,7 +277,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.325945050459216,
                 "Longitude": 50.98143001712389,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Haus_der_Erholung_-_heute_Jugendzentrum_mon_ami_%28Weimar%29.jpg/1600px-Haus_der_Erholung_-_heute_Jugendzentrum_mon_ami_%28Weimar%29.jpg?20081130211322",
                 "Format": "Image"
             },
             "geometry": {
@@ -297,7 +297,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -317,7 +317,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.330387917790912,
                 "Longitude": 50.979291266913684,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Hoffmanns_Buchhandlung_Weimar.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -337,7 +337,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.348843295800789,
                 "Longitude": 50.982707511136255,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
                 "Format": "Image"
             },
             "geometry": {
@@ -357,7 +357,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.363618799999943,
                 "Longitude": 50.99408704180606,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Weimar%2C_Schloss_Tiefurt._%28168B%29_%28NBY_419065%29.jpg?20180304150412",
                 "Format": "Image"
             },
             "geometry": {
@@ -377,7 +377,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.364988951845044,
                 "Longitude": 50.99481146619207,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Schlosspark_Tiefurt_2023_040.jpg/1600px-Schlosspark_Tiefurt_2023_040.jpg?20231011130456",
                 "Format": "Image"
             },
             "geometry": {
@@ -397,7 +397,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.32870401487555,
                 "Longitude": 50.97757379413026,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Goethe_House_in_1844.jpg/954px-Goethe_House_in_1844.jpg?20220829083531",
                 "Format": "Image"
             },
             "geometry": {
@@ -417,7 +417,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.324551999999931,
                 "Longitude": 50.981262856738695,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg/1600px-Stra\u00dfenbahn_Weimar_nach_1899_Karlsplatz_Hauptpost.jpg?20221003183820",
                 "Format": "Image"
             },
             "geometry": {
@@ -437,7 +437,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.335679417727908,
                 "Longitude": 50.943125440238134,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fotothek_df_hauptkatalog_0136938_Weimar%2C_Allee_zum_Belvedere.jpg?20220422135824",
                 "Format": "Image"
             },
             "geometry": {
@@ -457,7 +457,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -477,7 +477,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.349801064488693,
                 "Longitude": 50.947052839895825,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Weimar_-_Schlosspark_Belvedere_%28Belvedere_Palace_Park%29_-_geo.hlipp.de_-_40124.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -497,7 +497,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.347039517504848,
                 "Longitude": 50.94778235107361,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Weimar_Schlosspark_Belvedere_Heckentheater.jpg/1600px-Weimar_Schlosspark_Belvedere_Heckentheater.jpg?20150903152251",
                 "Format": "Image"
             },
             "geometry": {
@@ -517,7 +517,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.334587399552477,
                 "Longitude": 50.974688087583566,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oberer_Eingang_in_den_herzoglichen_Park_zu_Weimar_%28SM_6162z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -537,7 +537,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.333814923803697,
                 "Longitude": 50.97507654295814,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/4/40/Am_Schlangenstein_im_Park_zu_Weimar_%28SM_6158z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -557,7 +557,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.333754435581916,
                 "Longitude": 50.97615103348906,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/AnDerKlauseImWeimarerParkS148.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -577,7 +577,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.33544208132797,
                 "Longitude": 50.97123515477832,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/DasRoemischeHausImWeimarerParkS148.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -597,7 +597,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.334512515812536,
                 "Longitude": 50.978497773361205,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://1.bp.blogspot.com/-qkudhUatgMk/XEyF2KaTL8I/AAAAAAAAA18/zxug-f7AaBYt0kYXu2AhbNGVoQNej8qowCLcBGAs/s320/016_weimar_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -617,7 +617,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.336445168244508,
                 "Longitude": 50.976873237422204,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Weimar_-_2016-09-22_-_Goethes_Gartenhaus_%28009%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -657,7 +657,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.332216535581905,
                 "Longitude": 50.97582793345821,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/3/38/Tempelherrenhaus%2C_Weimar.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -677,7 +677,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.341047307363018,
                 "Longitude": 50.96550185331219,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Blick_auf_Oberweimar_1.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -697,7 +697,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.33309005359065,
                 "Longitude": 50.98189653304735,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BlickAufDieBurgmuehleUndDieKegelbrueckeInWeimarS150.jpg?20100915012617",
                 "Format": "Image"
             },
             "geometry": {
@@ -717,7 +717,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.566651682903407,
                 "Longitude": 50.878586975769544,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Altenburg_%28Weimar%29_1.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -737,7 +737,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -757,7 +757,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.32565003293711,
                 "Longitude": 50.972650778585695,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Weimar%2C_Th\u00fcringen_-_F\u00fcrstengruft_%28Zeno_Ansichtskarten%29.jpg/1600px-Weimar%2C_Th\u00fcringen_-_F\u00fcrstengruft_%28Zeno_Ansichtskarten%29.jpg?20171220084551",
                 "Format": "Image"
             },
             "geometry": {
@@ -777,7 +777,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.332206155819685,
                 "Longitude": 50.978501354124376,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Weimar%2C_Herzogin_Anna_Amalia_Bibliothek%2C_2019-09_CN-05.jpg/1600px-Weimar%2C_Herzogin_Anna_Amalia_Bibliothek%2C_2019-09_CN-05.jpg?20190924151735",
                 "Format": "Image"
             },
             "geometry": {
@@ -797,7 +797,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -857,7 +857,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -877,7 +877,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -937,7 +937,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.33482212144873,
                 "Longitude": 50.979550517309576,
                 "Type": "7",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Weimar%2C_Park_an_der_Ilm%2C_Sphinxgrotte%2C_2019-09_CN-01.jpg\r\n",
                 "Format": "Image"
             },
             "geometry": {
@@ -957,7 +957,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.336239688888927,
                 "Longitude": 50.97666208438207,
                 "Type": "8",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Oberer_Eingang_in_den_herzoglichen_Park_zu_Weimar_%28SM_6162z%29.png",
                 "Format": "Image"
             },
             "geometry": {
@@ -977,7 +977,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.33678685577008,
                 "Longitude": 50.97601220565277,
                 "Type": "9",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Goethe_Gartenhaus_Kraus.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -997,7 +997,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.338056702108101,
                 "Longitude": 50.96683914820426,
                 "Type": "10",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Blick_auf_Oberweimar_1.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -1017,7 +1017,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.272627311163127,
                 "Longitude": 51.03265838102817,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Der_Pavillon_im_Ettersburger_Park_bei_Weimar%2C_auf_der_Treppe_die_Herzogin_Anna_Amalia%2C_einen_Herrn_begr\u00fc\u00dfend_%28SM_6150z%29.png/1599px-Der_Pavillon_im_Ettersburger_Park_bei_Weimar%2C_auf_der_Treppe_die_Herzogin_Anna_Amalia%2C_einen_Herrn_begr\u00fc\u00dfend_%28SM_6150z%29.png?20201013185522\r\n",
                 "Format": "Image"
             },
             "geometry": {
@@ -1037,7 +1037,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.273951473753957,
                 "Longitude": 51.03241914865294,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Neues_Schloss_Ettersburg_und_Schlo\u00dfkirche%2C_oberhalb_des_Landschaftsparks_%22P\u00fccklerschlag%22%2C_Weimarer_Land.JPG/1599px-Neues_Schloss_Ettersburg_und_Schlo\u00dfkirche%2C_oberhalb_des_Landschaftsparks_%22P\u00fccklerschlag%22%2C_Weimarer_Land.JPG?20140921135100",
                 "Format": "Image"
             },
             "geometry": {
@@ -1057,7 +1057,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.25149860740966,
                 "Longitude": 51.0232027260418,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://live.staticflickr.com/2153/3833906849_612b50bded_b.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1077,7 +1077,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.248025841813757,
                 "Longitude": 51.02629872179585,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Weimar%2C_Schlossmuseum%2C_Karl_Buchholz%2C_lichter_Wald_im_Herbstnebel.JPG/1600px-Weimar%2C_Schlossmuseum%2C_Karl_Buchholz%2C_lichter_Wald_im_Herbstnebel.JPG?20181107082322\r\n",
                 "Format": "Image"
             },
             "geometry": {
@@ -1097,7 +1097,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.305989726803709,
                 "Longitude": 51.010976393782315,
                 "Type": "5",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Weimar%2C_Schlossmuseum%2C_Christian_Rohlfs%2C_Chaussee_nach_Gelmeroda_im_Winter.JPG/1514px-Weimar%2C_Schlossmuseum%2C_Christian_Rohlfs%2C_Chaussee_nach_Gelmeroda_im_Winter.JPG?20181105135600\r\n",
                 "Format": "Image"
             },
             "geometry": {
@@ -1117,7 +1117,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.312180690202993,
                 "Longitude": 51.002993800913934,
                 "Type": "6",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Georg_Melchior_Kraus_-_Weimar_von_der_Ostseite.jpg/1600px-Georg_Melchior_Kraus_-_Weimar_von_der_Ostseite.jpg?20171224120145",
                 "Format": "Image"
             },
             "geometry": {
@@ -1177,7 +1177,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
                 "Format": "Image"
             },
             "geometry": {
@@ -1197,7 +1197,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.34907669930688,
                 "Longitude": 50.94828130000382,
                 "Type": "3",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg/1599px-Weimar%2C_Th\u00fcringen_-_Schloss_Belvedere_%28Zeno_Ansichtskarten%29.jpg?20171220084940",
                 "Format": "Image"
             },
             "geometry": {
@@ -1217,7 +1217,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.347039517504848,
                 "Longitude": 50.94778235107361,
                 "Type": "4",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Weimar_Schlosspark_Belvedere_Heckentheater.jpg/1600px-Weimar_Schlosspark_Belvedere_Heckentheater.jpg?20150903152251",
                 "Format": "Image"
             },
             "geometry": {
@@ -1237,7 +1237,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329720692129492,
                 "Longitude": 50.9794250060172,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://pictures.abebooks.com/inventory/md/md30941662402.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1277,7 +1277,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329720692129492,
                 "Longitude": 50.9794250060172,
                 "Type": "2",
-                "Source": "",
+                "Source": "https://pictures.abebooks.com/inventory/md/md30941662402.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1297,7 +1297,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.32870401487555,
                 "Longitude": 50.97757379413026,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Goethe_House_in_1844.jpg/954px-Goethe_House_in_1844.jpg?20220829083531",
                 "Format": "Image"
             },
             "geometry": {
@@ -1357,7 +1357,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
@@ -1377,7 +1377,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.273951473753957,
                 "Longitude": 51.03241914865294,
                 "Type": "1",
-                "Source": "",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Neues_Schloss_Ettersburg_und_Schlo\u00dfkirche%2C_oberhalb_des_Landschaftsparks_%22P\u00fccklerschlag%22%2C_Weimarer_Land.JPG/1599px-Neues_Schloss_Ettersburg_und_Schlo\u00dfkirche%2C_oberhalb_des_Landschaftsparks_%22P\u00fccklerschlag%22%2C_Weimarer_Land.JPG?20140921135100",
                 "Format": "Image"
             },
             "geometry": {

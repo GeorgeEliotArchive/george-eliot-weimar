@@ -57,7 +57,7 @@ var json_NovemberLayer_8 = {
                 "Latitude": 11.335334123792492,
                 "Longitude": 50.98263674853141,
                 "Type": "3",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Altenburg_Bamberg_PA130005PS.jpg/1597px-Altenburg_Bamberg_PA130005PS.jpg?20170928071244",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Weimar%2C_Th%C3%BCringen_-_Altenburg_%28Liszts_Wohnung%29_%28Zeno_Ansichtskarten%29.jpg",
                 "Format": "Image"
             },
             "geometry": {
