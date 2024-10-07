@@ -31,6 +31,9 @@ september_paths_features = []
 october_paths_features = []
 november_paths_features = []
 
+# Global ID counter for assigning unique IDs to point features
+id_counter = 1
+
 # Function to fetch data from Omeka API
 def fetch_omeka_data(base_url, collection_id):
     items = []
@@ -60,7 +63,7 @@ def fetch_omeka_data(base_url, collection_id):
 
 # Function to create new JSON features for the month data files
 def create_features(data):
-    global august_features, september_features, october_features, november_features
+    global august_features, september_features, october_features, november_features, id_counter
 
     for item in data:
         if item.get('Coverage'):
@@ -71,6 +74,7 @@ def create_features(data):
                 new_feature = {
                     "type": "Feature",
                     "properties": {
+                        "id": 'point' + str(id_counter),  # Assign unique ID
                         "Date": item.get('Date', ''),
                         "Location": item.get('Subject', ''),
                         "Description": item.get('Description', ''),
@@ -85,6 +89,7 @@ def create_features(data):
                         "coordinates": [float(coordinates[1]), float(coordinates[0])]
                     }
                 }
+                id_counter += 1  # Increment ID counter
 
                 # Check the month from the Date field
                 if 'Date' in item and re.match(r'\d{4}-\d{2}-\d{2}', item['Date']):
@@ -97,9 +102,30 @@ def create_features(data):
                         october_features.append(new_feature)
                     elif month == 11:
                         november_features.append(new_feature)
+                        
+def create_line_segments(sorted_features):
+    line_features = []
+    for i in range(len(sorted_features) - 1):
+        start_feature = sorted_features[i]
+        end_feature = sorted_features[i + 1]
+        line_feature = {
+            "type": "Feature",
+            "properties": {
+                "startPointId": start_feature['properties']['id'],
+                "endPointId": end_feature['properties']['id']
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [start_feature['geometry']['coordinates'][0], start_feature['geometry']['coordinates'][1]],
+                    [end_feature['geometry']['coordinates'][0], end_feature['geometry']['coordinates'][1]]
+                ]
+            }
+        }
+        line_features.append(line_feature)
+    return line_features
 
-# Function to create paths features for each month using sorted features
-def create_paths_features(data):
+def create_paths_features():
     global august_features, september_features, october_features, november_features
     global august_paths_features, september_paths_features, october_paths_features, november_paths_features
 
@@ -108,69 +134,12 @@ def create_paths_features(data):
     sorted_september_features = sort_features_by_date(september_features)
     sorted_october_features = sort_features_by_date(october_features)
     sorted_november_features = sort_features_by_date(november_features)
-    
-    # Extract coordinates from the sorted features, ensuring longitude comes before latitude
-    august_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_august_features]
-    september_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_september_features]
-    october_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_october_features]
-    november_coordinates = [[f['geometry']['coordinates'][0], f['geometry']['coordinates'][1]] for f in sorted_november_features]
-    
-    # Create path features for each month
-    if august_coordinates:
-        august_path_feature = {
-            "type": "Feature",
-            "properties": {
-                "begin": "2",  # Start point index
-                "end": "3"     # End point index
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": august_coordinates
-            }
-        }
-        august_paths_features.append(august_path_feature)
-    
-    if september_coordinates:
-        september_path_feature = {
-            "type": "Feature",
-            "properties": {
-                "begin": "2",  # Start point index
-                "end": "3"     # End point index
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": september_coordinates
-            }
-        }
-        september_paths_features.append(september_path_feature)
-    
-    if october_coordinates:
-        october_path_feature = {
-            "type": "Feature",
-            "properties": {
-                "begin": "2",  # Start point index
-                "end": "3"     # End point index
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": october_coordinates
-            }
-        }
-        october_paths_features.append(october_path_feature)
-    
-    if november_coordinates:
-        november_path_feature = {
-            "type": "Feature",
-            "properties": {
-                "begin": "2",  # Start point index
-                "end": "3"     # End point index
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": november_coordinates
-            }
-        }
-        november_paths_features.append(november_path_feature)
+
+    # Create path features for each month by connecting consecutive points
+    august_paths_features.extend(create_line_segments(sorted_august_features))
+    september_paths_features.extend(create_line_segments(sorted_september_features))
+    october_paths_features.extend(create_line_segments(sorted_october_features))
+    november_paths_features.extend(create_line_segments(sorted_november_features))
 
 # Function to sort features by date
 def sort_features_by_date(features):
@@ -201,7 +170,7 @@ def main():
 
     if omeka_data:  # Check if data was fetched successfully
         create_features(omeka_data)
-        create_paths_features(omeka_data)
+        create_paths_features()
         
         # Sort features by date before writing to JS files
         sorted_august_features = sort_features_by_date(august_features)
@@ -226,3 +195,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

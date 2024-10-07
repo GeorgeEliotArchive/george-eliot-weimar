@@ -11,6 +11,7 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "id": "point168",
                 "Date": "1854-11-02",
                 "Location": "Residenzschlob",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
@@ -31,6 +32,7 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "id": "point167",
                 "Date": "1854-11-02",
                 "Location": "Sternbr\u00fccke",
                 "Description": "\u201cOn future occasions, like most of Liszt's Weimar friends, they probably made the short walk from their lodgings, past the Residenzschlob and over the Sternbr\u00fccke to the opposite bank of the river. From there, stone steps led up a short, but steep, wooded path to the Altenburg.\u201d - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
@@ -51,6 +53,7 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "id": "point165",
                 "Date": "1854-11-02",
                 "Location": "The Altenburg",
                 "Description": "\"Breakfasted at Liszt's and said goodbye. The Marquis de Ferriere and Cornelius there.\" - George Eliot, Personal Diary (1854)",
@@ -71,6 +74,7 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "id": "point169",
                 "Date": "1854-11-03",
                 "Location": "Weimar Station",
                 "Description": "\"Hofrath Sch\u00f6ll came to say goodbye and brought me Uhland's poems as a parting present. We set off from the Weimar station at 1/2 past one, and reached Berlin at 1/2 past 9.\" - George Eliot, Personal Diary (1854)",
@@ -91,6 +95,7 @@ var json_NovemberLayer_8 = {
         {
             "type": "Feature",
             "properties": {
+                "id": "point166",
                 "Date": "1854-11-03",
                 "Location": "Anhalter Bahnhof",
                 "Description": "\"Hofrath Sch\u00f6ll came to say goodbye and brought me Uhland's poems as a parting present. We set off from the Weimar station at 1/2 past one, and reached Berlin at 1/2 past 9.\" - George Eliot, Personal Diary (1854)",

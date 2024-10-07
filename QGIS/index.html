@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
         <style>
         html, body, #map {
             width: 100%;
@@ -17,10 +18,26 @@
             padding: 0;
             margin: 0;
         }
+        #dateFilter {
+            position: absolute;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            left: 75px; /* Move widget to the right */
+        }
         </style>
         <title></title>
     </head>
     <body>
+        <div id="dateFilter">
+            <label for="fromDate">From:</label>
+            <input type="text" id="fromDate">
+            <label for="toDate">To:</label>
+            <input type="text" id="toDate">
+            <button id="applyDateFilter">Apply</button>
+        </div>
+        
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
@@ -41,6 +58,7 @@
         <script src="data/SeptemberLayer_6.js"></script>
         <script src="data/OctoberLayer_7.js"></script>
         <script src="data/NovemberLayer_8.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -698,6 +716,218 @@
         });
         lay.addTo(map);
         setBounds();
+        </script>
+        
+        <script>
+            // Global variables
+            var fromDate = null;
+            var toDate = null;
+            var lay;
+
+            // Define date range
+            var minDate = new Date(1854, 7, 2); // August 2, 1854
+            var maxDate = new Date(1854, 10, 3); // November 3, 1854
+
+            // Initialize date pickers
+            var fromPicker = new Pikaday({
+                field: document.getElementById('fromDate'),
+                format: 'YYYY-MM-DD',
+                minDate: minDate,
+                maxDate: maxDate,
+                defaultDate: minDate,
+                setDefaultDate: true,
+                yearRange: [1854, 1854],
+                onSelect: function(date) {
+                    fromDate = date;
+                }
+            });
+
+            var toPicker = new Pikaday({
+                field: document.getElementById('toDate'),
+                format: 'YYYY-MM-DD',
+                minDate: minDate,
+                maxDate: maxDate,
+                defaultDate: maxDate,
+                setDefaultDate: true,
+                yearRange: [1854, 1854],
+                onSelect: function(date) {
+                    toDate = date;
+                }
+            });
+
+            // Set initial dates
+            fromDate = minDate;
+            toDate = maxDate;
+
+            // Event listener for the Apply button
+            document.getElementById('applyDateFilter').addEventListener('click', function() {
+                if (fromDate) {
+                    fromDate.setHours(0, 0, 0, 0);
+                }
+                if (toDate) {
+                    toDate.setHours(23, 59, 59, 999);
+                }
+                applyDateFilter();
+            });
+
+            // Global mapping of point features by ID
+            var pointFeaturesById = {};
+
+            // After loading point layers, populate the mapping
+            function populatePointFeaturesById(geojsonData) {
+                geojsonData.features.forEach(function(feature) {
+                    var id = feature.properties['id']; // Ensure each point has a unique 'id' property
+                    pointFeaturesById[id] = feature;
+                });
+            }
+
+            // Populate point features mapping
+            populatePointFeaturesById(json_AugustLayer_5);
+            populatePointFeaturesById(json_SeptemberLayer_6);
+            populatePointFeaturesById(json_OctoberLayer_7);
+            populatePointFeaturesById(json_NovemberLayer_8);
+
+            function lineConnectsFilteredPoints(lineFeature) {
+                var startPointId = lineFeature.properties['startPointId'];
+                var endPointId = lineFeature.properties['endPointId'];
+
+                var startPoint = pointFeaturesById[startPointId];
+                var endPoint = pointFeaturesById[endPointId];
+
+                if (startPoint && endPoint) {
+                    var startPointPasses = dateFilter(startPoint, 'point');
+                    var endPointPasses = dateFilter(endPoint, 'point');
+
+                    return startPointPasses && endPointPasses;
+                }
+                return false;
+            }
+
+            function dateFilter(feature, layerType) {
+                if (!fromDate && !toDate) {
+                    return true; // No filter applied
+                }
+                var featureDate = feature.properties['Date'] ? new Date(feature.properties['Date']) : null;
+
+                if (layerType === 'point') {
+                    if (!featureDate) {
+                        return false; // Exclude points without a date
+                    }
+                    if (fromDate && featureDate < fromDate) {
+                        return false;
+                    }
+                    if (toDate && featureDate > toDate) {
+                        return false;
+                    }
+                    return true;
+                }
+
+                if (layerType === 'line') {
+                    if (featureDate) {
+                        if (fromDate && featureDate < fromDate) {
+                            return false;
+                        }
+                        if (toDate && featureDate > toDate) {
+                            return false;
+                        }
+                        return true;
+                    } else {
+                        return lineConnectsFilteredPoints(feature);
+                    }
+                }
+                return true;
+            }
+
+            function updateLayerData(layer, geojsonData, layerType) {
+                // Clear existing data
+                layer.clearLayers();
+
+                // Filter features based on the date filter
+                var filteredFeatures = geojsonData.features.filter(function(feature) {
+                    return dateFilter(feature, layerType);
+                });
+
+                // Add filtered features back into the layer
+                layer.addData(filteredFeatures);
+            }
+
+            function applyDateFilter() {
+                // Update point layers with filtered data
+                updateLayerData(layer_AugustLayer_5, json_AugustLayer_5, 'point');
+                updateLayerData(layer_SeptemberLayer_6, json_SeptemberLayer_6, 'point');
+                updateLayerData(layer_OctoberLayer_7, json_OctoberLayer_7, 'point');
+                updateLayerData(layer_NovemberLayer_8, json_NovemberLayer_8, 'point');
+
+                // Clear the pointFeaturesById mapping
+                pointFeaturesById = {};
+
+                // Re-populate pointFeaturesById with the currently displayed point features
+                function updatePointFeaturesById(layer) {
+                    layer.eachLayer(function(layer) {
+                        var feature = layer.feature;
+                        var id = feature.properties['id'];
+                        pointFeaturesById[id] = feature;
+                    });
+                }
+
+                updatePointFeaturesById(layer_AugustLayer_5);
+                updatePointFeaturesById(layer_SeptemberLayer_6);
+                updatePointFeaturesById(layer_OctoberLayer_7);
+                updatePointFeaturesById(layer_NovemberLayer_8);
+
+                // Update line layers with filtered data
+                updateLayerData(layer_Paths_1, json_Paths_1, 'line');
+                updateLayerData(layer_Paths_2, json_Paths_2, 'line');
+                updateLayerData(layer_Paths_3, json_Paths_3, 'line');
+                updateLayerData(layer_Paths_4, json_Paths_4, 'line');
+
+                // Optionally adjust map bounds
+                setBounds();
+            }
+
+            function createLineLayer(dataVar, layerName, paneName, popFunction, styleFunction, zIndex) {
+                map.createPane(paneName);
+                map.getPane(paneName).style.zIndex = zIndex;
+                map.getPane(paneName).style['mix-blend-mode'] = 'normal';
+                var layer = new L.geoJson(window[dataVar], {
+                    attribution: '',
+                    interactive: true,
+                    dataVar: dataVar,
+                    layerName: layerName,
+                    pane: paneName,
+                    onEachFeature: popFunction,
+                    style: styleFunction,
+                    filter: function(feature) {
+                        return dateFilter(feature, 'line');
+                    }
+                });
+                bounds_group.addLayer(layer);
+                return layer;
+            }
+
+            function createPointLayer(dataVar, layerName, paneName, popFunction, styleFunction, zIndex) {
+                map.createPane(paneName);
+                map.getPane(paneName).style.zIndex = zIndex;
+                map.getPane(paneName).style['mix-blend-mode'] = 'normal';
+                var layer = new L.geoJson(window[dataVar], {
+                    attribution: '',
+                    interactive: true,
+                    dataVar: dataVar,
+                    layerName: layerName,
+                    pane: paneName,
+                    onEachFeature: popFunction,
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, styleFunction(feature));
+                    },
+                    filter: function(feature) {
+                        return dateFilter(feature, 'point');
+                    } // Apply filter to point layers
+                });
+                bounds_group.addLayer(layer);
+                return layer;
+            }
+
+
         </script>
     </body>
 </html>
