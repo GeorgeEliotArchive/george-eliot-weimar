@@ -1,13 +1,13 @@
 # George Eliot in Weimar
 
-Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, HTML, JavaScript, and Python, is designed to be “software-free” upon its release. This project connects to the Archive’s Omeka server and implements a Python script that runs once a day to make relevant updates to items on the map if their metadata has changed within the “GE in Weimar” Omeka metadata collection. 
+Welcome! The **George Eliot in Weimar Geospatial Overview**, created with QGIS, HTML, JavaScript, and Python, is designed to be “software-free” upon its release. This project connects to the George Eliot Archive’s Omeka server and implements a Python script that runs once a day to make relevant updates to items on the map if their metadata has changed within the “GE in Weimar” Omeka metadata collection. 
 
-Additionally, the **George Eliot in Weimar Geospatial Narrative**, created with GeoStory and GeoNode, allows a story-like experience for George Eliot Archive visitors. Making edits to this project is outside of the scope of this repository. Please email Dr. Rilett if you need access to the official GeoNode project.
+Additionally, the **George Eliot in Weimar Geospatial Narrative**, created with GeoStory and GeoNode, allows a story-like experience for George Eliot Archive visitors. Making edits to this project is outside of the scope of this repository.
 
 ## Overview
-To update any aspect of a location—whether it be coordinates, images, or anything else—Archive editors can simply update the data for an entry in Omeka. This guide provides instructions on managing entries in Omeka, including adding or changing items, and explains how to manually update the QGIS map in GitHub if automatic updates fail.
+To update any aspect of a location—-whether it be coordinates, images, or anything else—-Archive editors can simply update the data for an entry in Omeka. This guide provides instructions on managing entries in Omeka, including adding or changing items, and explains how to manually update the QGIS map in GitHub if automatic updates fail.
 
-*Note: a more detailed guide with images can be found in this project's official box folder. Please email Dr. Rilett for access.*
+*Note: a more detailed guide with images can be found in this project's official Box folder. Please email Dr. Beverley Park Rilett for access.*
 
 ## How to Update an Item in Omeka
 
@@ -37,12 +37,12 @@ To update any aspect of a location—whether it be coordinates, images, or anyth
    - **Source**: The address of the media item uploaded to Omeka.
    - **Publisher**: George Eliot Archive.
    - **Date**: Date Eliot visited the location.
-   - **Rights**: Copyright license associated with the media item.
+   - **Rights**: Copyright license associated with the media item, with the default as CC BY-NC-SA 4.0
    - **Relation**: The work from which the description was quoted.
    - **Format**: Type of media (Image or Video).
    - **Type**: The order in which Eliot visited locations on a given day.
    - **Identifier**: Box link to the media item in the project’s Box folder.
-   - **Coverage**: Geolocation of the location Eliot visited.
+   - **Coverage**: Geolocation (latitude and longitude) of the location Eliot visited.
 
 6. After updating the **Dublin Core** items:
    - Go to **Item Type Metadata** and enter the name of the resource into **Original Format** (this name should be the same as the name of the file in the project Box folder).
@@ -82,4 +82,4 @@ If automatic updates fail due to network or software issues, manual updates can 
     ```
 
 ## Contributing
-Only members of the George Eliot Archive Team are allowed to edit this project. If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request in the [project repository](https://github.com/GeorgeEliotArchive/george-eliot-weimar).
+Only members of the George Eliot Archive Team, directed by Dr. Beverley Park Rilett at Auburn University (bdr0032@auburn.edu), are allowed to edit this project. If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request in the [project repository](https://github.com/GeorgeEliotArchive/george-eliot-weimar).
