@@ -1,7 +1,12 @@
-name: Test Python API Connection
+name: Test Connection
 
 on:
-  workflow_dispatch:  # Manual trigger option
+  workflow_dispatch:  # This allows manual trigger from GitHub Actions UI
+    inputs:
+      api_url:
+        description: 'API URL to test'
+        required: true
+        default: 'https://georgeeliotarchive.org/api/items'  # You can set a default value or change it during manual trigger
 
 jobs:
   test-connection:
@@ -11,17 +16,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install requests library
-      run: |
-        pip install requests
-
     - name: Test API connection
       run: |
         echo "Testing connection to API: ${{ github.event.inputs.api_url }}"
-        curl -v --retry 5 --retry-delay 5 --connect-timeout 30 -X GET "${{ github.event.inputs.api_url }}" || exit 1
-
+        curl -v --retry 5 --retry-delay 5 --connect-timeout 30 "${{ github.event.inputs.api_url }}" || exit 1
