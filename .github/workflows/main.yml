@@ -21,12 +21,12 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
+  
+    - name: Test network connectivity
+      run: curl -v https://georgeeliotarchive.org
 
     - name: Run updateData.py
       run: python3 QGIS/data/updateData.py
-
-    - name: Test network connectivity
-      run: curl -v https://georgeeliotarchive.org
 
     - name: Commit changes
       run: |
