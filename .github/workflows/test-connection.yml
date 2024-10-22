@@ -6,7 +6,7 @@ on:
       api_url:
         description: 'API URL to test'
         required: true
-        default: 'https://georgeeliotarchive.org/api/collections'  # You can set a default value or change it during manual trigger
+        default: 'https://ge-worker-apiproxy.sunlibo.workers.dev/'  # You can set a default value or change it during manual trigger
 
 jobs:
   test-connection:
