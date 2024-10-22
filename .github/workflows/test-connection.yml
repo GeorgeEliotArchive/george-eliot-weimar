@@ -1,0 +1,25 @@
+name: Test Connection
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # This allows you to manually trigger the workflow
+    inputs:
+      api_url:
+        description: 'API URL to test'
+        required: true
+        default: 'https://georgeeliotarchive.org/api/items'
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Test API connection
+      run: |
+        echo "Testing connection to API: ${{ github.event.inputs.api_url }}"
+        curl -v -X GET "${{ github.event.inputs.api_url }}"
