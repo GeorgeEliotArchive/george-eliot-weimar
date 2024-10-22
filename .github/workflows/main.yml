@@ -16,13 +16,17 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.11'
 
     - name: Install dependencies
-      run: pip install requests
+      run: |
+        pip install requests
 
     - name: Run updateData.py
       run: python3 QGIS/data/updateData.py
+
+    - name: Test network connectivity
+      run: curl -v https://georgeeliotarchive.org
 
     - name: Commit changes
       run: |
