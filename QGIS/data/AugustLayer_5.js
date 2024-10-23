@@ -35,7 +35,7 @@ var json_AugustLayer_5 = {
                 "id": "point160",
                 "Date": "1854-08-02",
                 "Location": "Marburg",
-                "Description": "TEST2 \"At 5 o'clock we set out on our 10 hours' journey to Weimar. The second class carriage was so comfortable, and the weather so lovely after the morning rains that the first half of our journey was delightful instead of fatiguing. The splendid view we had of Marburg by the setting sun was worth the whole journey.\" - George Eliot, Personal Diary (1854)",
+                "Description": "\"At 5 o'clock we set out on our 10 hours' journey to Weimar. The second class carriage was so comfortable, and the weather so lovely after the morning rains that the first half of our journey was delightful instead of fatiguing. The splendid view we had of Marburg by the setting sun was worth the whole journey.\" - George Eliot, Personal Diary (1854)",
                 "Latitude": 8.76268530170231,
                 "Longitude": 50.79746487881397,
                 "Type": "2",
