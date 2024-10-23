@@ -41,7 +41,7 @@ def fetch_omeka_data(base_url, collection_id):
     while True:
         url = f'{base_url}/items?collection={collection_id}&page={page}'
         headers = {
-            'Host': 'georgeeliotarchive.org'  # Add the Host header to direct traffic to the correct domain
+            'Host': 'georgeeliotarchive.georgeeliotreview.org'  # Add the Host header to direct traffic to the correct domain
         }
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
