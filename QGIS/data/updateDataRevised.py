@@ -2,10 +2,9 @@ import requests
 import json
 import re
 import os
-from itertools import groupby
 
 # Define the Omeka API URL and the collection ID
-OMEKA_API_BASE_URL = "https://georgeeliotarchive.georgeeliotreview.org/api"
+OMEKA_API_BASE_URL = "https://georgeeliotarchive.org/api"
 COLLECTION_ID = '68'  # Change this to '66' to test with the working collection
 
 # Get the directory where the script is located
@@ -41,9 +40,14 @@ def fetch_omeka_data(base_url, collection_id):
     while True:
         url = f'{base_url}/items?collection={collection_id}&page={page}'
         headers = {
-            'Host': 'georgeeliotarchive.georgeeliotreview.org'  # Add the Host header to direct traffic to the correct domain
+            'Host': 'georgeeliotarchive.org',  # Ensure Host header is used correctly
+            'Accept': 'application/json'  # Optional: Include if needed by the server
         }
+
+        # Make the request and include the Host header
         response = requests.get(url, headers=headers)
+        
+        # Check if the request was successful
         if response.status_code == 200:
             page_data = response.json()
             if not page_data:
@@ -105,6 +109,9 @@ def create_features(data):
                         october_features.append(new_feature)
                     elif month == 11:
                         november_features.append(new_feature)
+
+# The rest of the code remains unchanged
+
                         
 def create_line_segments(sorted_features):
     line_features = []
