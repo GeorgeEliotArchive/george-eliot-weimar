@@ -5,7 +5,8 @@ import os
 from itertools import groupby
 
 # Define the Omeka API URL and the collection ID
-OMEKA_API_BASE_URL = "https://georgeeliotarchive.org/api"
+# OMEKA_API_BASE_URL = "https://georgeeliotarchive.org/api"
+OMEKA_API_BASE_URL = "https://ge-worker-apiproxy.sunlibo.workers.dev/api"
 COLLECTION_ID = '68'  # Change this to '66' to test with the working collection
 
 # Get the directory where the script is located
