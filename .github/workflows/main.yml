@@ -29,8 +29,8 @@ jobs:
     - name: Test archive network connectivity
       run: curl -v https://ge-worker-apiproxy.sunlibo.workers.dev/
 
-    - name: Run updateDataRevised.py
-      run: python3 QGIS/data/updateDataRevised.py
+    - name: Run updateData.py
+      run: python3 QGIS/data/update.py
 
     - name: Commit changes
       run: |
