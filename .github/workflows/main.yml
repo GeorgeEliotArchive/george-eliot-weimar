@@ -23,14 +23,12 @@ jobs:
       run: |
         pip install requests
 
-    - name: Test basic network connectivity
-      run: curl -v https://www.auburn.edu
-  
-    - name: Test archive network connectivity
-      run: curl -v https://ge-worker-apiproxy.sunlibo.workers.dev/
+
+    # - name: Test archive network connectivity
+    #   run: curl -v https://ge-worker-apiproxy.sunlibo.workers.dev/
 
     - name: Run updateData.py
-      run: python3 QGIS/data/update.py
+      run: python3 QGIS/data/updateData.py
 
     - name: Commit changes
       run: |
