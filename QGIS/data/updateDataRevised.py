@@ -39,14 +39,21 @@ def fetch_omeka_data(base_url, collection_id):
     page = 1
     while True:
         url = f'{base_url}/items?collection={collection_id}&page={page}'
+
+        # Modify the request to set the correct Host header
         headers = {
-            'Host': 'georgeeliotarchive.org',  # Ensure Host header is used correctly
-            'Accept': 'application/json'  # Optional: Include if needed by the server
+            'Host': 'georgeeliotarchive.org',  # Inject the correct Host header
+            'Accept': 'application/json',  # Ensure we are asking for JSON response
         }
 
-        # Make the request and include the Host header
-        response = requests.get(url, headers=headers)
-        
+        # Make the request with the modified URL and headers
+        modified_request = requests.Request('GET', url, headers=headers)
+        prepared_request = modified_request.prepare()
+
+        # Send the modified request
+        session = requests.Session()
+        response = session.send(prepared_request)
+
         # Check if the request was successful
         if response.status_code == 200:
             page_data = response.json()
@@ -110,9 +117,7 @@ def create_features(data):
                     elif month == 11:
                         november_features.append(new_feature)
 
-# The rest of the code remains unchanged
-
-                        
+                    
 def create_line_segments(sorted_features):
     line_features = []
     for i in range(len(sorted_features) - 1):
