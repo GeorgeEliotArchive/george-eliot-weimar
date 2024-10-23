@@ -27,7 +27,7 @@ jobs:
       run: curl -v https://www.auburn.edu
   
     - name: Test archive network connectivity
-      run: curl -v https://www.georgeeliotarchive.org
+      run: curl -v https://ge-worker-apiproxy.sunlibo.workers.dev/
 
     - name: Run updateData.py
       run: python3 QGIS/data/updateData.py
