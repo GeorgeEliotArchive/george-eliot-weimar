@@ -144,7 +144,7 @@ var json_AugustLayer_5 = {
                 "Latitude": 11.329504979762268,
                 "Longitude": 50.97986491895225,
                 "Type": "5",
-                "Source": "https://3.bp.blogspot.com/-Dlg8h57Kb9Q/XJeyz6A8fwI/AAAAAAAAA5k/Rdu5wRry2FIcNfZY0hiwFNaDEn8GefX_wCLcBGAs/s320/005_weimar_eliot_2018-05-22.JPG",
+                "Source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioIIzYzR0zjEsRvvPK2Xs64esLAxajpLOYEzYjykqBrtAGq2wDZYwUPYXhHAkPUKpJ4IST9X7vtVs5nMSvk00pKNR-5DOtZrQFdlIGKwyIwVXWpJbMCsPvlBTGUDopSOZhSy_AzaEDefw/s200/Tafel+01.jpg",
                 "Format": "Image"
             },
             "geometry": {
