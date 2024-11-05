@@ -750,8 +750,8 @@ var json_AugustLayer_5 = {
                 "Date": "1854-08-10",
                 "Location": "Jenaische Chaussee",
                 "Description": "\"Most likely, Lewes hired a carriage,  which took them through the town, over the Kegelbrucke, and up Jenaische  Chauss\u00e9e to the Altenburg.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
-                "Latitude": 11.566651682903407,
-                "Longitude": 50.878586975769544,
+                "Latitude": 11.334149613905575,
+                "Longitude": 50.9824947375547,
                 "Type": "2",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Altenburg_%28Weimar%29_1.jpg",
                 "Format": "Image"
@@ -759,8 +759,8 @@ var json_AugustLayer_5 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.566651682903407,
-                    50.878586975769544
+                    11.334149613905575,
+                    50.9824947375547
                 ]
             }
         },
