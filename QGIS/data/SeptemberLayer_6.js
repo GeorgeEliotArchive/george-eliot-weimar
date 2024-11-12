@@ -120,8 +120,8 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-02",
                 "Location": "Road near Thuringian Forest from Bercka to Weimar",
                 "Description": "\"The walk to Bercka and back was a favorite expedition with us and a few Weimar friends, for the road thither is a pleasant one, leading at first through open cultivated fields, dotted here and there with villages, and then through wooded hills\u2014the outskirts of the Thuringian Forest. We used not to despise the fine plums which hung in tempting abundance by the road-side; but we afterward found that we had been deceived in supposing ourselves free to pluck them, as if it were the golden age, and that we were liable to a penalty of ten groschen for our depredations.\" - George Eliot, Three Months in Weimar (1855)",
-                "Latitude": 10.833162451221062,
-                "Longitude": 50.66781591610213,
+                "Latitude": 11.276465313918228,
+                "Longitude": 50.90783861453346,
                 "Type": "6",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Thuringian_forest_near_saalfeld.jpg/1600px-Thuringian_forest_near_saalfeld.jpg?20160502114307",
                 "Format": "Image"
@@ -129,8 +129,8 @@ var json_SeptemberLayer_6 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    10.833162451221062,
-                    50.66781591610213
+                    11.276465313918228,
+                    50.90783861453346
                 ]
             }
         },
@@ -477,8 +477,8 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-11",
                 "Location": "The Sonne",
                 "Description": "\"Walked in the Webicht, and talked of art. In the afternoon we went to Jena. Much struck by the scenery. Slept at the Sonne.\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 11.281323627782943,
-                "Longitude": 50.9011411421813,
+                "Latitude": 11.58782266734851,
+                "Longitude": 50.9276820756141,
                 "Type": "4",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
@@ -486,8 +486,8 @@ var json_SeptemberLayer_6 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.281323627782943,
-                    50.9011411421813
+                    11.58782266734851,
+                    50.9276820756141
                 ]
             }
         },
@@ -498,8 +498,8 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-11",
                 "Location": "Table d'Hotel (Sonne)",
                 "Description": "\"Over dinner the previous evening, she and Lewes had indulged in their usual attempts at classification and, judging the man by his features, had decided that he must be a grocer without his apron.\" - Gerlinde Roder-Bolton, George Eliot in Germany, 1854\u201355 (The Nineteenth Century Series)",
-                "Latitude": 11.281323627782943,
-                "Longitude": 50.9011411421813,
+                "Latitude": 11.58782266734851,
+                "Longitude": 50.9276820756141,
                 "Type": "5",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
@@ -507,8 +507,8 @@ var json_SeptemberLayer_6 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.281323627782943,
-                    50.9011411421813
+                    11.58782266734851,
+                    50.9276820756141
                 ]
             }
         },
@@ -582,8 +582,8 @@ var json_SeptemberLayer_6 = {
                 "Date": "1854-09-12",
                 "Location": "The Sonne",
                 "Description": "\"We came home by a Wagen which started from the Sonne at 4. I was amazed at the beauty of the road, which I had not seen well as we went, from being shut up in a close Wagen. The evening sky was beautiful and we had full leisure to observe it, for we did not reach Weimar till 1/2 past 7. The little town looked more bright and cheety than ever after Jena\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 11.281323627782943,
-                "Longitude": 50.9011411421813,
+                "Latitude": 11.58782266734851,
+                "Longitude": 50.9276820756141,
                 "Type": "4",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Haus_%22Zur_Sonne%22%2C_Jena%2C_Markt_22.jpg",
                 "Format": "Image"
@@ -591,29 +591,8 @@ var json_SeptemberLayer_6 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.281323627782943,
-                    50.9011411421813
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "point60",
-                "Date": "1854-09-12",
-                "Location": "Webicht",
-                "Description": "\"As we got nearer Weimar and the way became less varied we had another kind of beauty - that of the evening sky, which was fleckered with rosy clouds. We drove through the Webicht by twilight and were glad to find ourselves comfortably at home again with our books about us instead of being shivering at the Sonne with nothing to do.\" - George Eliot, Recollections of Weimar (1865)",
-                "Latitude": 11.348843295800789,
-                "Longitude": 50.982707511136255,
-                "Type": "5",
-                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
-                "Format": "Image"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    11.348843295800789,
-                    50.982707511136255
+                    11.58782266734851,
+                    50.9276820756141
                 ]
             }
         },
@@ -626,7 +605,7 @@ var json_SeptemberLayer_6 = {
                 "Description": "\"I forgot to write that when we stopped at a half way house, one of our fellow travellers, a man who had dined with us at the Sonne and whom we had pronounced to be an \u00e9picier who looked incomplete without his apron, approached G. who was standing near the horses and said: Parlez-vous Fran\u00e7ais, monsieur? 'Oui, monsieur'. Vous allez \u00e0 Weimar, monsieur. 'Oui monsieur. J'y ai demeure depuis six semaines'. 'Est-ce que cela vous a plait?' etc. etc. I enjoyed this dialogue immensely, and we afterward referred to our ambitious grocer who was anxious to shew his knowledge of French.\" - George Eliot, Recollections of Weimar (1865)",
                 "Latitude": 11.452207694443548,
                 "Longitude": 50.967483626469964,
-                "Type": "6",
+                "Type": "5",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/1/14/The_M%C3%BChlental_near_Jena_%28SM_1462z%29.png",
                 "Format": "Image"
             },
@@ -635,6 +614,27 @@ var json_SeptemberLayer_6 = {
                 "coordinates": [
                     11.452207694443548,
                     50.967483626469964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "point60",
+                "Date": "1854-09-12",
+                "Location": "Webicht",
+                "Description": "\"As we got nearer Weimar and the way became less varied we had another kind of beauty - that of the evening sky, which was fleckered with rosy clouds. We drove through the Webicht by twilight and were glad to find ourselves comfortably at home again with our books about us instead of being shivering at the Sonne with nothing to do.\" - George Eliot, Recollections of Weimar (1865)",
+                "Latitude": 11.348843295800789,
+                "Longitude": 50.982707511136255,
+                "Type": "6",
+                "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff/lossy-page1-1599px-Karl_Buchholz_Vorfr\u00fchling_im_Webicht_bei_Weimar_Hamburger_Kunsthalle_Detail_ArishG.tiff.jpg?20170502201203",
+                "Format": "Image"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.348843295800789,
+                    50.982707511136255
                 ]
             }
         },

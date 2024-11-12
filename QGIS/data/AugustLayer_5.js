@@ -1128,8 +1128,8 @@ var json_AugustLayer_5 = {
                 "Date": "1854-08-14",
                 "Location": "Pine Forest",
                 "Description": "\"We devoted the day to an expedition to Ettersburg. On our return homewards the solemn grandeur of the Pine forest, in contrast with the sunbathed woods through which we had been passing, had a strong effect on us. The Chaussee has a bordering of cherry trees and mountain ashes. The bunches of coral berries gladdened our eyes.\" - George Eliot, Personal Diary (1854)",
-                "Latitude": 11.248025841813757,
-                "Longitude": 51.02629872179585,
+                "Latitude": 11.25149860740966,
+                "Longitude": 51.0232027260418,
                 "Type": "4",
                 "Source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Weimar%2C_Schlossmuseum%2C_Karl_Buchholz%2C_lichter_Wald_im_Herbstnebel.JPG/1600px-Weimar%2C_Schlossmuseum%2C_Karl_Buchholz%2C_lichter_Wald_im_Herbstnebel.JPG?20181107082322\r\n",
                 "Format": "Image"
@@ -1137,8 +1137,8 @@ var json_AugustLayer_5 = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.248025841813757,
-                    51.02629872179585
+                    11.25149860740966,
+                    51.0232027260418
                 ]
             }
         },
