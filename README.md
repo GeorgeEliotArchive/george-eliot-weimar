@@ -48,7 +48,7 @@ To update any aspect of a location—-whether it be coordinates, images, or anyt
    - Go to **Item Type Metadata** and enter the name of the resource into **Original Format** (this name should be the same as the name of the file in the project Box folder).
    - Upload the media resource under **Files** and click **Save Changes**.
 
-7. Make sure that all changes made are reflected manually in the GeoStory project as well. To make changes, simply login to the GeoStory project and manually make updates, implementing any modifications you made in Omeka.
+7. Make sure that all changes made are reflected manually in the GeoStory project as well. To make changes, simply login to the GeoStory project and manually make updates, implementing any modifications you made in Omeka. To learn how to use GeoStory, which includes making manual changes to GeoCarousel entries and other items included in the project GeoStory, please reference the official [GeoNode Documentation.](https://docs.geonode.org/en/master/usage/geostory/index.html)
 
 **Important**: If you change a media item, make sure to update `Creator`, `Source`, `Rights`, `Format`, and `Identifier`. If you add a new item to a given date, adjust **Type** values accordingly.
 
