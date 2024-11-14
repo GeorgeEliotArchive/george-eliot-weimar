@@ -50,6 +50,8 @@ To update any aspect of a location—-whether it be coordinates, images, or anyt
 
 7. Make sure that all changes made are reflected manually in the GeoStory project as well. To make changes, simply login to the GeoStory project and manually make updates, implementing any modifications you made in Omeka. To learn how to use GeoStory, which includes making manual changes to GeoCarousel entries and other items included in the project GeoStory, please reference the official [GeoNode Documentation.](https://docs.geonode.org/en/master/usage/geostory/index.html)
 
+8. Likewise, if you update an item in GeoStory, make sure the update is reflected in Omeka. For example, the text entries under the videos in the GeoStory project are stored in the corresponding video's Omeka entry. Make sure that if you update the text in GeoStory, you update the same text in its corresponding Omeka entry, and vice versa.
+
 **Important**: If you change a media item, make sure to update `Creator`, `Source`, `Rights`, `Format`, and `Identifier`. If you add a new item to a given date, adjust **Type** values accordingly.
 
 ## Manually Updating the Map in GitHub
